@@ -6,8 +6,7 @@ After install pfSense go to
 ```
 Interface > Assignments > Vlans
 ```
-
-![[images/Vlans.png]]
+![vlans](images/Vlans.png)
 
 Create 2 Vlans *vlan6* & *Vlan4* on your WAN interface.
 
@@ -19,15 +18,15 @@ Interface > Assignments > PPP
 
 Add a new interface and link it to you WAN port
 
-![[images/PPP.png]]
+![PPP](images/PPP.png)
 
 Than go to 
 
 ```
 Interface > Assignments 
 ```
+![assignments](images/assignments.png)
 
-![[images/assignments.png]]
 Set here your WAN to you PPP interface.  
 Set Lan to your lan interface / port.  
 And assign a new interface Vlan4 for kpn tv
@@ -54,7 +53,8 @@ Than to go
 Services > IGMP Proxy
 ```
 
-![[images/IGMPPROXY.png]]
+![IGMPProxy](images/IGMPPROXY.png)
+
 Enable IGMP
 
 add an upstream and downstream.
@@ -70,7 +70,8 @@ Services > DHCP Server > LAN
 Scroll to the bottom and open *Additional BOOTP/DHCP Options*
 and enter the following lines
 
-![[images/Additional-BOOTP-DHCP.png]]
+![BOOTP](images/Additional-BOOTP-DHCP.png)
+
 In this example is the broadcast adress 10.0.0.255 set here your own broadcast address
 
 Than go to
@@ -79,7 +80,7 @@ Than go to
 Firewall > NAT > Outbound
 ```
 
-![[images/outbound.png]]
+![BOOTP](images/outbound.png)
 
 And add the line above under mappings
 
@@ -91,10 +92,11 @@ Firewall > Rules > WAN
 
 Add the following lines
 
-![[images/rules-wan.png]]
+![RulesWAN](images/rules-wan.png)
+
 On the IPv4 IGMP rule enable the following line.
 _Allow IP options_
-![[/images/ipoptions.png]]
+![ipoptions](images/ipoptions.png)
 
 Than go to
 
@@ -104,10 +106,11 @@ Firewall Rules LAN
 
 and add the following lines
 
-![[images/firewalllan.png]]
+![fwlan](images/firewalllan.png)
 
 On the IPv4 IGMP rule _Allow IP options_
-![[images/ipoptions.png]]
+![ipoptions](images/ipoptions.png)
+
 _The 213.75.112.0/21 is the ip/subnet from kpn itv_
 
 Than go to
@@ -117,7 +120,7 @@ Firewall > Rules > TV_KPN
 ```
 
 And add the following lines
+![tvKPN](images/TV_KPN.png)
 
-![[images/TV_KPN.png]]
 On the IPv4 IGMP rule _Allow IP options_
-![[images/ipoptions.png]]
+![ipoptions](images/ipoptions.png)
