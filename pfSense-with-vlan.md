@@ -128,7 +128,7 @@ Services > IGMP Proxy
 
 Here we are going to add 2 streams (Upstream and Downstream)
 
-####Add Upstream 
+Add Upstream 
 
 Set Interface: ```IPTV_WAN```
 
@@ -138,7 +138,8 @@ Create 2 networks: ```0.0.0.0 / 1 ``` ```128.0.0.0 / 1```
 
 
 
-####Add Downstream
+
+Add Downstream
 
 Set Interface: ```IPTV_VLAN89```
 
