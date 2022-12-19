@@ -1,6 +1,5 @@
-![KPN](images/home/logo-kpn.png)
-
 # KPN
+![KPN](images/home/logo-kpn.png)
 Detailed how to information about setting up KPN Internet + iTV on routers.
 
 
