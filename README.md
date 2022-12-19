@@ -1,4 +1,4 @@
-# KPN Internet & iTV - custom router settings
+# KPN Internet & iTV - custom router settings.
 ![KPN](images/home/logo-kpn.png)
 
 Detailed how to information about setting up KPN Internet + iTV on routers.
@@ -16,6 +16,9 @@ If you have interest / knowledge in this area and want to help other people, lea
 
 
 ### Mikrotik:
+
+* [Mikrotik without seperate TV VLAN](Mikrotik-Internet-only.md)
+
 <img src="images/home/logo-mikrotik.jpg" width="414" height="122" />
 
 
