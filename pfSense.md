@@ -7,7 +7,7 @@ After install pfSense go to
 Interface > Assignments > Vlans
 ```
 
-![[https://github.com/landaal-ict/KPN/blob/main/images/Vlans.png|alt=octocat]]
+![[images/Vlans.png]]
 
 Create 2 Vlans *vlan6* & *Vlan4* on your WAN interface.
 
