@@ -7,7 +7,7 @@ After install pfSense go to
 Interface > Assignments > Vlans
 ```
 
-![[/main/images/Vlans.png]]
+![[images/Vlans.png]]
 
 Create 2 Vlans *vlan6* & *Vlan4* on your WAN interface.
 
@@ -19,7 +19,7 @@ Interface > Assignments > PPP
 
 Add a new interface and link it to you WAN port
 
-![[/main/images/PPP.png]]
+![[images/PPP.png]]
 
 Than go to 
 
@@ -27,7 +27,7 @@ Than go to
 Interface > Assignments 
 ```
 
-![[/main/images/assignments.png]]
+![[images/assignments.png]]
 Set here your WAN to you PPP interface.  
 Set Lan to your lan interface / port.  
 And assign a new interface Vlan4 for kpn tv
@@ -54,7 +54,7 @@ Than to go
 Services > IGMP Proxy
 ```
 
-![[/main/images/IGMPPROXY.png]]
+![[images/IGMPPROXY.png]]
 Enable IGMP
 
 add an upstream and downstream.
@@ -70,7 +70,7 @@ Services > DHCP Server > LAN
 Scroll to the bottom and open *Additional BOOTP/DHCP Options*
 and enter the following lines
 
-![[/images/Additional-BOOTP-DHCP.png]]
+![[images/Additional-BOOTP-DHCP.png]]
 In this example is the broadcast adress 10.0.0.255 set here your own broadcast address
 
 Than go to
@@ -79,7 +79,7 @@ Than go to
 Firewall > NAT > Outbound
 ```
 
-![[/images/outbound.png]]
+![[images/outbound.png]]
 
 And add the line above under mappings
 
@@ -91,7 +91,7 @@ Firewall > Rules > WAN
 
 Add the following lines
 
-![[/images/rules-wan.png]]
+![[images/rules-wan.png]]
 On the IPv4 IGMP rule enable the following line.
 _Allow IP options_
 ![[/images/ipoptions.png]]
@@ -104,10 +104,10 @@ Firewall Rules LAN
 
 and add the following lines
 
-![[/images/firewalllan.png]]
+![[images/firewalllan.png]]
 
 On the IPv4 IGMP rule _Allow IP options_
-![[/images/ipoptions.png]]
+![[images/ipoptions.png]]
 _The 213.75.112.0/21 is the ip/subnet from kpn itv_
 
 Than go to
@@ -118,6 +118,6 @@ Firewall > Rules > TV_KPN
 
 And add the following lines
 
-![[/images/TV_KPN.png]]
+![[images/TV_KPN.png]]
 On the IPv4 IGMP rule _Allow IP options_
-![[/images/ipoptions.png]]
+![[images/ipoptions.png]]
