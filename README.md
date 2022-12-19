@@ -9,10 +9,11 @@ If you have interest / knowledge in this area and want to help other people, lea
 
 
 ### pfSense:
-![pfSense](images/home/logo-pfsense.png)
 
 * [pfSense without separate TV VLAN](/pfSense-without-vlan.md)
 * [pfSense with seperate TV VLAN](/pfSense-with-vlan.md)
+
+![pfSense](images/home/logo-pfsense.png)
 
 
 ### Mikrotik:
@@ -23,22 +24,12 @@ If you have interest / knowledge in this area and want to help other people, lea
 <img src="images/home/logo-mikrotik.jpg" width="414" height="122" />
 
 
-
-
-
-
-
-
-
-
-
-
-
 ```
 Contribute?
 Make a pull request
 ```
+
 ### KPN Forum Topic
 
-https://forum.kpn.com/thuisnetwerk-72/handleiding-gemaakt-voor-mensen-die-een-eigen-router-willen-gebruiken-580903
+Verwijderd i.v.m. KPN niet hulp accepteert buiten het KPN forum.
 
