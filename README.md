@@ -2,6 +2,9 @@
 ![KPN](images/home/logo-kpn.png)
 
 Detailed how to information about setting up KPN Internet + iTV on routers.
+We will try update this GitHub for more routers to become a central place to find settings.
+
+If you have interest / knowledge in this area and want to help other people, leave a message for us so we can try to add you as a contributor!
 
 
 ### pfSense:
