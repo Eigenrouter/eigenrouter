@@ -120,3 +120,5 @@ add address=10.0.0.0/24 dns-server=10.0.0.1 domain=home.local gateway=\
 ```
 
 Now is your internet working.
+do you have tv from KPN? [TV Configuration](/Mikrotik-tv-settings.md)
+

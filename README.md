@@ -18,6 +18,7 @@ If you have interest / knowledge in this area and want to help other people, lea
 ### Mikrotik:
 
 * [Mikrotik internet only](Mikrotik-Internet-only.md)
+* [Mikrotik TV configuration](/Mikrotik-tv-settings.md)
 
 <img src="images/home/logo-mikrotik.jpg" width="414" height="122" />
 
