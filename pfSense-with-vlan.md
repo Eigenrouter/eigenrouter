@@ -49,9 +49,9 @@ Interface > Assignments
 
 Set Interface WAN to PPPOE0
 
-Add VLAN4 for IPTV_WAN
+Add ```VLAN4``` for ```IPTV_WAN```
 
-Add VLAN89 for IPTV_VLAN89 
+Add ```VLAN89``` for ```IPTV_VLAN89 ```
 
 ### Step. 4
 
@@ -75,7 +75,7 @@ Edit Interface IPTV_VLAN89
 
 ![VLAN89_1](images/pfsense-with-vlan/InterfaceVlanIPTV.png)
 
-IPv4 Configuration Type 
+IPv4 Configuration Type: 
 ```Static IPv4```
 
 IPv4 Address: 
@@ -91,8 +91,9 @@ Services > DHCP Server > IPTV_VLAN89
 
 ![DHCPVLAN89](images/pfsense-with-vlan/DHCPIPTVVLAN.png)
 
-Set Range (or use your own range)
+Set Range:
 ```192.168.89.10 / 192.168.89.245```
+(*Or use your own range)
 
 ![DHCPVLAN89DNS](images/pfsense-with-vlan/DHCPIPTVVLANDNS.png)
 
@@ -108,8 +109,12 @@ Set Domain name:
 ![DHCPVLAN89BOOTP](images/pfsense-with-vlan/DHCPIPTVVLANBOOTP.png)
 
 Set BOOTP/DHCP Options 
-```60 / Text / IPTV_RG```
-```28 / IP address or host / 192.168.89.255```
+```
+60 / Text / IPTV_RG
+```
+```
+28 / IP address or host / 192.168.89.255
+```
 
 ### Step. 7
 
@@ -123,7 +128,7 @@ Services > IGMP Proxy
 
 Here we are going to add 2 streams (Upstream and Downstream)
 
-Add Upstream 
+####Add Upstream 
 
 Set Interface: ```IPTV_WAN```
 
@@ -133,7 +138,7 @@ Create 2 networks: ```0.0.0.0 / 1 ``` ```128.0.0.0 / 1```
 
 
 
-Add Downstream
+####Add Downstream
 
 Set Interface: ```IPTV_VLAN89```
 
