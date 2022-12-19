@@ -7,7 +7,7 @@ In this How-To we are going to use VLAN89 as our seperate TV VLAN, you can choos
 After install pfSense go to
 
 ```
-Interface > Assignments > Vlans
+Interface > Assignments > VLANs
 ```
 
 ![VLAN](images/pfsense-with-vlan/InterfaceVlans.png)
