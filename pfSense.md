@@ -7,7 +7,7 @@ After install pfSense go to
 Interface > Assignments > Vlans
 ```
 
-![[/images/Vlans.png]]
+![[/main/images/Vlans.png]]
 
 Create 2 Vlans *vlan6* & *Vlan4* on your WAN interface.
 
@@ -19,7 +19,7 @@ Interface > Assignments > PPP
 
 Add a new interface and link it to you WAN port
 
-![[/images/PPP.png]]
+![[/main/images/PPP.png]]
 
 Than go to 
 
@@ -27,7 +27,7 @@ Than go to
 Interface > Assignments 
 ```
 
-![[/images/assignments.png]]
+![[/main/images/assignments.png]]
 Set here your WAN to you PPP interface.  
 Set Lan to your lan interface / port.  
 And assign a new interface Vlan4 for kpn tv
@@ -54,7 +54,7 @@ Than to go
 Services > IGMP Proxy
 ```
 
-![[/images/IGMPPROXY.png]]
+![[/main/images/IGMPPROXY.png]]
 Enable IGMP
 
 add an upstream and downstream.
