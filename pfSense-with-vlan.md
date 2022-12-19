@@ -12,12 +12,12 @@ Interface > Assignments > Vlans
 
 ![VLAN](images/pfsense-with-vlan/InterfaceVlans.png)
 
-Create 2 VLANs on your WAN interface.
+Create 2 VLANs on your WAN interface:
 ```VLAN6```
 ```VLAN4```
 
-Create 1 VLAN on your LAN interface.
-```VLAN89 ```
+Create 1 VLAN on your LAN interface:
+```VLAN89```
 
 ### Step. 2
 
