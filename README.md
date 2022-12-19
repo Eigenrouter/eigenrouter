@@ -11,7 +11,7 @@ Detailed how to information about setting up KPN Internet + iTV on routers.
 
 
 ### Mikrotik:
-![Mikrotik](images/home/logo-mikrotik.jpg | =122x414)
+<img src="images/home/logo-mikrotik.jpg" width="414" height="122" />
 
 
 
