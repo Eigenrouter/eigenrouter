@@ -36,5 +36,6 @@ If you have interest / knowledge in this area and want to help other people, lea
 Contribute?
 Make a pull request
 ```
-
+KPN Forum Topic
+https://forum.kpn.com/thuisnetwerk-72/handleiding-gemaakt-voor-mensen-die-een-eigen-router-willen-gebruiken-580903
 
