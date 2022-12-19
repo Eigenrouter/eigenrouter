@@ -59,12 +59,12 @@ Edit Interface IPTV_WAN
 
 ![VLAN89_1](images/pfsense-with-vlan/LeaseRequirementsAndRequests.png)
 
-Set Send options to 
+Set Send options:
 ```
 dhcp-class-identifier "IPTV_RG"
 ```
 
-Set Request options to
+Set Request options:
 ```
 subnet-mask, routers, broadcast-address, classless-routes
 ```
