@@ -2,7 +2,7 @@
 Setup KPN On Routers
 
 ### pfSense:
-[pfSense without separate tv vlan](/pfSense)
+[pfSense without separate tv vlan](/pfSense.md)
 
 
 ### Mikrotik:
