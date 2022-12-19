@@ -11,10 +11,8 @@ If you have interest / knowledge in this area and want to help other people, lea
 ### pfSense:
 ![pfSense](images/home/logo-pfsense.png)
 
-[pfSense without separate TV VLAN](/pfSense-without-vlan.md)
-
-
-[pfSense with seperate TV VLAN](/pfSense-with-vlan.md)
+* [pfSense without separate TV VLAN](/pfSense-without-vlan.md)
+* [pfSense with seperate TV VLAN](/pfSense-with-vlan.md)
 
 
 ### Mikrotik:
