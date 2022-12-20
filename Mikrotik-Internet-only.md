@@ -1,4 +1,6 @@
-#### make sure you start with an empty mikrotik, also no default config!
+### Mikrotik-Internet-only
+
+### make sure you start with an empty mikrotik, also no default config!
 
 you can access your router on eth2 via winbox
 you can download winbox [MikroTik Routers and Wireless - Software](https://mikrotik.com/download)
