@@ -14,6 +14,7 @@ Join us in our Discord server @ [ISP Custom Routers](https://discord.gg/V2g9DQ5V
 
 * [pfSense without separate TV VLAN](guides/pfsense/pfSense-without-vlan.md)
 * [pfSense with seperate TV VLAN](guides/pfsense/pfSense-with-vlan.md)
+* [pfSense KPN IPv6](guides/pfsense/pfSense-ipv6.md)
 
 ![pfSense](images/home/logo-pfsense.png)
 
