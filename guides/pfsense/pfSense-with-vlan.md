@@ -10,7 +10,7 @@ After install pfSense go to
 Interface > Assignments > VLANs
 ```
 
-![VLAN](images/pfsense-with-vlan/InterfaceVlans.png)
+![VLAN](../../images/pfsense-with-vlan/InterfaceVlans.png)
 
 Create 2 VLANs on your WAN interface:
 ```VLAN6```
@@ -29,7 +29,7 @@ Interface > Assignments > PPPs
 
 Add a new interface and link it with your WAN port
 
-![PPPs](images/pfsense-with-vlan/PPP.png)
+![PPPs](../../images/pfsense-with-vlan/PPP.png)
 
 Username 
 ```kpn@internet```
@@ -45,7 +45,7 @@ Go to
 Interface > Assignments 
 ```
 
-![Interfaces](images/pfsense-with-vlan/Interfaces.png)
+![Interfaces](../../images/pfsense-with-vlan/Interfaces.png)
 
 Set Interface WAN to PPPOE0
 
@@ -57,7 +57,7 @@ Add ```VLAN89``` for ```IPTV_VLAN89 ```
 
 Edit Interface IPTV_WAN
 
-![VLAN89_1](images/pfsense-with-vlan/LeaseRequirementsAndRequests.png)
+![VLAN89_1](../../images/pfsense-with-vlan/LeaseRequirementsAndRequests.png)
 
 Set Send options:
 ```
@@ -73,7 +73,7 @@ subnet-mask, routers, broadcast-address, classless-routes
 
 Edit Interface IPTV_VLAN89
 
-![VLAN89_1](images/pfsense-with-vlan/InterfaceVlanIPTV.png)
+![VLAN89_1](../../images/pfsense-with-vlan/InterfaceVlanIPTV.png)
 
 IPv4 Configuration Type: 
 ```Static IPv4```
@@ -89,24 +89,24 @@ Go to
 Services > DHCP Server > IPTV_VLAN89
 ```
 
-![DHCPVLAN89](images/pfsense-with-vlan/DHCPIPTVVLAN.png)
+![DHCPVLAN89](../../images/pfsense-with-vlan/DHCPIPTVVLAN.png)
 
 Set Range:
 ```192.168.89.10 / 192.168.89.245```
 (*Or use your own range)
 
-![DHCPVLAN89DNS](images/pfsense-with-vlan/DHCPIPTVVLANDNS.png)
+![DHCPVLAN89DNS](../../images/pfsense-with-vlan/DHCPIPTVVLANDNS.png)
 
 Set DNS Servers:
 ```195.121.1.34``` 
 ```195.121.1.66```
 
-![DHCPVLAN89OTHER](images/pfsense-with-vlan/DHCPIPTVVLANOTHER.png)
+![DHCPVLAN89OTHER](../../images/pfsense-with-vlan/DHCPIPTVVLANOTHER.png)
 
 Set Domain name:
 ```kpn.home```
 
-![DHCPVLAN89BOOTP](images/pfsense-with-vlan/DHCPIPTVVLANBOOTP.png)
+![DHCPVLAN89BOOTP](../../images/pfsense-with-vlan/DHCPIPTVVLANBOOTP.png)
 
 Set BOOTP/DHCP Options 
 ```
@@ -124,7 +124,7 @@ Go to
 Services > IGMP Proxy
 ```
 
-![IGMP](images/pfsense-with-vlan/IGMP.png)
+![IGMP](../../images/pfsense-with-vlan/IGMP.png)
 
 Here we are going to add 2 streams (Upstream and Downstream)
 
@@ -157,13 +157,13 @@ Go to
 Firewall > NAT > Outbound
 ```
 
-![NATOutbound](images/pfsense-with-vlan/NATOutbound.png)
+![NATOutbound](../../images/pfsense-with-vlan/NATOutbound.png)
 
 Set to Hybrid Outbound NAT
 
 Create a Mapping
 
-![NATOutboundMapping](images/pfsense-with-vlan/NATOutboundMappings.png)
+![NATOutboundMapping](../../images/pfsense-with-vlan/NATOutboundMappings.png)
 
 ### Step. 9
 
@@ -175,11 +175,11 @@ Firewall > Rules > IPTV_WAN
 
 Add the following rules
 
-![FWIPTVWAN](images/pfsense-with-vlan/FWIPTVWAN.png)
+![FWIPTVWAN](../../images/pfsense-with-vlan/FWIPTVWAN.png)
 
 On the IPv4 IGMP rule enable the following line.
 
-![AllowIPOptions](images/pfsense-with-vlan/AllowIPOptions.png)
+![AllowIPOptions](../../images/pfsense-with-vlan/AllowIPOptions.png)
 
 ### Step. 10
 
@@ -191,8 +191,8 @@ Firewall > Rules > IPTV_VLAN89
 
 Add the following rules
 
-![FWIPTV89](images/pfsense-with-vlan/FWIPTVVLAN.png)
+![FWIPTV89](../../images/pfsense-with-vlan/FWIPTVVLAN.png)
 
 On the IPv4 IGMP rule enable the following line.
 
-![AllowIPOptions](images/pfsense-with-vlan/AllowIPOptions.png)
+![AllowIPOptions](../../images/pfsense-with-vlan/AllowIPOptions.png)
