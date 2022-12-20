@@ -174,6 +174,16 @@ Set Destination: ```any```
 
 ### Step. 6
 
+Reboot your router now!
+
+Go to
+
+```
+Diagnostics > Reboot
+```
+
+### Step. 7
+
 Now IPv6 should be configured for your pfSense.
 
 You can check if its working at one of the following sites.
