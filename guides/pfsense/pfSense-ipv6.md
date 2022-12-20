@@ -47,6 +47,7 @@ Set IPv6 Configuration Type: ```Track Interface```
 ![TrackIPv6Interface](../../images/pfsense-ipv6/TrackIPv6Interface.png)
 
 Set IPv6 Interface: ```WAN```
+
 Set IPv6 Prefix ID: ```1``` (* can be something between (hexadecimal from 0 to ffff))
 
 ### Step. 3
@@ -65,7 +66,9 @@ LAN > DHCPv6 Server
 ![DHCPv6Server](../../images/pfsense-ipv6/DHCPv6Server.png)
 
 Set DHCPv6 Server: ```True```
+
 Set Range: ```::1000 / ::2000```
+
 Set Prefix Delegation Size: ```56```
 
 Go to tab
@@ -90,10 +93,15 @@ Firewall > Rules > WAN
 ![fwWANicmp4](../../images/pfsense-ipv6/fwWANicmp4.png)
 
 IPv4 ICMP
+
 Set Address Family: ```IPv4```
+
 Set Protocol: ```ICMP```
+
 Set ICMP Subtypes: ```Echo request```
+
 Set Source: ```any```
+
 Set Destination: ```any```
 
 ![fwWANlinklocal](../../images/pfsense-ipv6/fwWANlinklocal.png)
@@ -101,9 +109,13 @@ Set Destination: ```any```
 IPv6 Link-Local
 
 Set Address Family: ```IPv6```
+
 Set Protocol: ```UDP```
+
 Set Source: ```Network``` ```fe80::/10```
+
 Set Destination: ```Any```
+
 Set Destination Port Range: ```Any``` ```Any```
 
 ![fwWANicmp6](../../images/pfsense-ipv6/fwWANicmp.png)
@@ -111,9 +123,13 @@ Set Destination Port Range: ```Any``` ```Any```
 IPv6 ICMP
 
 Set Address Family: ```IPv6```
+
 Set Protocol: ```ICMP```
+
 Set ICMP Subtypes: ```Echo request```
+
 Set Source: ```any```
+
 Set Destination: ```any```
 
 ### Step. 5
@@ -127,19 +143,29 @@ Firewall > Rules > LAN
 ![fwLANicmp4](../../images/pfsense-ipv6/fwLANicmp4.png)
 
 IPv4 ICMP
+
 Set Address Family: ```IPv4```
+
 Set Protocol: ```ICMP```
+
 Set ICMP Subtypes: ```Echo request```
+
 Set Source: ```LAN net```
+
 Set Destination: ```any```
 
 ![fwLANicmp6](../../images/pfsense-ipv6/fwLANicmp6.png)
 
 IPv4 ICMP
+
 Set Address Family: ```IPv6```
+
 Set Protocol: ```ICMP```
+
 Set ICMP Subtypes: ```Echo request```
+
 Set Source: ```LAN net```
+
 Set Destination: ```any```
 
 ### Step. 6
