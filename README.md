@@ -12,17 +12,17 @@ Join us in our Discord server @ [ISP Custom Routers](https://discord.gg/V2g9DQ5V
 
 ### pfSense:
 
-* [pfSense without separate TV VLAN](/pfSense-without-vlan.md)
-* [pfSense with seperate TV VLAN](/pfSense-with-vlan.md)
+* [pfSense without separate TV VLAN](guides/pfsense/pfSense-without-vlan.md)
+* [pfSense with seperate TV VLAN](guides/pfsense/pfSense-with-vlan.md)
 
 ![pfSense](images/home/logo-pfsense.png)
 
 
 ### Mikrotik:
 
-* [Mikrotik internet only](Mikrotik-Internet-only.md)
-* [Mikrotik TV configuration](/Mikrotik-tv-settings.md)
-* [Mikrotik voice / telephony](Mikrotik-voice-telephony.md)
+* [Mikrotik internet only](guides/mikrotik/Mikrotik-Internet-only.md)
+* [Mikrotik TV configuration](guides/mikrotik/Mikrotik-tv-settings.md)
+* [Mikrotik voice / telephony](guides/mikrotik/Mikrotik-voice-telephony.md)
 
 <img src="images/home/logo-mikrotik.jpg" width="414" height="122" />
 
