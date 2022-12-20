@@ -67,7 +67,7 @@ Go to tab
 LAN > DHCPv6 Server
 ```
 
-![DHCPv6Server](../../images/pfsense-ipv6/DHCPv6Server.png)
+![DHCPv6Server](../../images/pfsense-ipv6/DHCPv6Serverv2.png)
 
 Set DHCPv6 Server: ```True```
 
