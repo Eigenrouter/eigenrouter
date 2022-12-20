@@ -3,6 +3,9 @@
 you can access your router on eth2 via winbox
 you can download winbox [MikroTik Routers and Wireless - Software](https://mikrotik.com/download)
 
+before you start check if multicast package is installed.
+if you running routeros 7 your fine!
+
 Default login is admin with no password.
 Open the terminal in winbox and do copy & paste the config.
 
