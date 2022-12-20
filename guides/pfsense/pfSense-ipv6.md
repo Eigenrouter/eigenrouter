@@ -25,9 +25,13 @@ Set IPv6 Configuration Type: ```DHCP6```
 ![DHCP6ClientConfiguration](../../images/pfsense-ipv6/DHCP6ClientConfiguration.png)
 
 Set Use IPv4 connectivity as parent interface: ```True```
+
 Set Request only an IPv6 prefix: ```True```
+
 Set DHCPv6 Prefix Delegation size: ```48```
+
 Set Send IPv6 prefix hint: ```True```
+
 Set Do not wait for a RA: ```True```
 
 ### Step. 2
