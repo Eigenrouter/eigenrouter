@@ -15,14 +15,14 @@ Go to
 Interface > WAN
 ```
 
-![interfaceWAN](../../../images/pfsense-ipv6/interfaceWAN.png)
+![interfaceWAN](../../../images/KPN/pfsense-ipv6/interfaceWAN.png)
 
 
-![IPv6ConfigType](../../../images/pfsense-ipv6/IPv6ConfigType.png)
+![IPv6ConfigType](../../../images/KPN/pfsense-ipv6/IPv6ConfigType.png)
 
 Set IPv6 Configuration Type: ```DHCP6```
 
-![DHCP6ClientConfiguration](../../../images/pfsense-ipv6/DHCP6ClientConfiguration.png)
+![DHCP6ClientConfiguration](../../../images/KPN/pfsense-ipv6/DHCP6ClientConfiguration.png)
 
 Set Use IPv4 connectivity as parent interface: ```True```
 
@@ -42,13 +42,13 @@ Go to
 Interface > LAN
 ```
 
-![interfaceLAN](../../../images/pfsense-ipv6/interfaceLAN.png)
+![interfaceLAN](../../../images/KPN/pfsense-ipv6/interfaceLAN.png)
 
-![IPv6ConfigTypeLAN](../../../images/pfsense-ipv6/IPv6ConfigTypeLAN.png)
+![IPv6ConfigTypeLAN](../../../images/KPN/pfsense-ipv6/IPv6ConfigTypeLAN.png)
 
 Set IPv6 Configuration Type: ```Track Interface```
 
-![TrackIPv6Interface](../../../images/pfsense-ipv6/TrackIPv6Interface.png)
+![TrackIPv6Interface](../../../images/KPN/pfsense-ipv6/TrackIPv6Interface.png)
 
 Set IPv6 Interface: ```WAN```
 
@@ -67,7 +67,7 @@ Go to tab
 LAN > DHCPv6 Server
 ```
 
-![DHCPv6Server](../../../images/pfsense-ipv6/DHCPv6Serverv2.png)
+![DHCPv6Server](../../../images/KPN/pfsense-ipv6/DHCPv6Serverv2.png)
 
 Set DHCPv6 Server: ```True```
 
@@ -80,7 +80,7 @@ Go to tab
 LAN > Router Advertisements 
 ```
 
-![DHCPv6RA](../../../images/pfsense-ipv6/DHCPv6RA.png)
+![DHCPv6RA](../../../images/KPN/pfsense-ipv6/DHCPv6RA.png)
 
 Set Router mode: ```Assisted - RA Flags [managed, other stateful], Prefix Flags [onlink, auto, router]```
 
@@ -92,9 +92,9 @@ Go to
 Firewall > Rules > WAN
 ```
 
-![fwWAN](../../../images/pfsense-ipv6/fwWAN.png)
+![fwWAN](../../../images/KPN/pfsense-ipv6/fwWAN.png)
 
-![fwWANicmp4](../../../images/pfsense-ipv6/fwWANicmp4.png)
+![fwWANicmp4](../../../images/KPN/pfsense-ipv6/fwWANicmp4.png)
 
 IPv4 ICMP
 
@@ -108,7 +108,7 @@ Set Source: ```any```
 
 Set Destination: ```any```
 
-![fwWANlinklocal](../../../images/pfsense-ipv6/fwWANlinklocal.png)
+![fwWANlinklocal](../../../images/KPN/pfsense-ipv6/fwWANlinklocal.png)
 
 IPv6 Link-Local
 
@@ -122,7 +122,7 @@ Set Destination: ```Any```
 
 Set Destination Port Range: ```Any``` ```Any```
 
-![fwWANicmp6](../../../images/pfsense-ipv6/fwWANicmp.png)
+![fwWANicmp6](../../../images/KPN/pfsense-ipv6/fwWANicmp.png)
 
 IPv6 ICMP
 
@@ -142,9 +142,9 @@ Set Destination: ```any```
 Firewall > Rules > LAN
 ```
 
-![fwLAN](../../../images/pfsense-ipv6/fwLAN.png)
+![fwLAN](../../../images/KPN/pfsense-ipv6/fwLAN.png)
 
-![fwLANicmp4](../../../images/pfsense-ipv6/fwLANicmp4.png)
+![fwLANicmp4](../../../images/KPN/pfsense-ipv6/fwLANicmp4.png)
 
 IPv4 ICMP
 
@@ -158,7 +158,7 @@ Set Source: ```LAN net```
 
 Set Destination: ```any```
 
-![fwLANicmp6](../../../images/pfsense-ipv6/fwLANicmp6.png)
+![fwLANicmp6](../../../images/KPN/pfsense-ipv6/fwLANicmp6.png)
 
 IPv4 ICMP
 
@@ -192,7 +192,7 @@ You can check if its working at one of the following sites.
 * [test-ipv6.com](https://test-ipv6.com/)
 * [ipv6test.google.com](https://ipv6test.google.com/)
 
-![ipv6testcom](../../../images/pfsense-ipv6/ipv6test.png)
+![ipv6testcom](../../../images/KPN/pfsense-ipv6/ipv6test.png)
 
 If you are getting 18/20 and ICMP says filtered on ipv6-test.com try to visit it on your mobile.
 
