@@ -43,7 +43,7 @@ Join our Discord server @ [EIGENROUTER.NL](https://discord.gg/gbpqTkxHrC)
 * Coming soon...
 
 ### T-Mobile
-* Coming soon...
+* [Mikrotik internet only](guides/mikrotik/T-Mobile/Mikrotik-Internet-only.md)
 
 
 ```
