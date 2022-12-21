@@ -1,12 +1,12 @@
 # EIGEN ROUTER
 
-Detailed how to information about setting up Internet, iTV & VOIP on your own router from different ISP's
+Detailed how-to information about setting up Internet, IPTV & VoIP on your own router from different ISPs.
 
-We will try update this GitHub for more routers to become a central place to find settings.
+We will update this repo with more types of routers to become a central place to find information.
 
-If you have interest / knowledge in this area and want to help other people, leave a message for us so we can try to add you as a contributor!
+If you have interest / knowledge in this area and want to help other people, leave a message for us so we can add you as a contributor!
 
-Join us in our Discord server @ [ISP Custom Routers](https://discord.gg/gbpqTkxHrC)
+Join our Discord server @ [EIGENROUTER.NL](https://discord.gg/gbpqTkxHrC)
 
 - [EIGEN ROUTER](#eigen-router)
   * [pfSense](#pfsense)
