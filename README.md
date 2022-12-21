@@ -7,7 +7,7 @@ We will try update this GitHub for more routers to become a central place to fin
 
 If you have interest / knowledge in this area and want to help other people, leave a message for us so we can try to add you as a contributor!
 
-Join us in our Discord server @ [ISP Custom Routers](https://discord.gg/V2g9DQ5Vrj)
+Join us in our Discord server @ [ISP Custom Routers](https://discord.gg/gbpqTkxHrC)
 
 
 ### pfSense:
