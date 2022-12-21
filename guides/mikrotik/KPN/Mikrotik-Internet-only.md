@@ -66,6 +66,6 @@ add address-pool=thuisnetwerk authoritative=yes interface=local \
     lease-time=8h name=dhcp-home
 /ip dhcp-server network
 add address=10.0.0.0/24 dns-server=10.0.0.1 domain=home.local gateway=\
-    10.0.0.1```
+    10.0.0.1
 ```
 Now, if you connect your device to ether2, you should get an IP address via DHCP in the 10.0.0.0/24 range, and you will have internet access. We recommend updating the Mikrotik device to the latest Stable version of Routeros 6 or 7. You can do this at System > Packages > Check for Updates. Also update the firmware at System > RouterBOARD > Upgrade. Both updates require a restart. 
