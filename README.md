@@ -8,6 +8,15 @@ If you have interest / knowledge in this area and want to help other people, lea
 
 Join us in our Discord server @ [ISP Custom Routers](https://discord.gg/gbpqTkxHrC)
 
+- [EIGEN ROUTER](#eigen-router)
+  * [pfSense](#pfsense)
+    + [KPN](#kpn)
+    + [Ziggo](#ziggo)
+    + [T-Mobile](#t-mobile)
+  * [Mikrotik](#mikrotik)
+    + [KPN](#kpn-1)
+    + [Ziggo](#ziggo-1)
+    + [T-Mobile](#t-mobile-1)
 
 ## pfSense
 
