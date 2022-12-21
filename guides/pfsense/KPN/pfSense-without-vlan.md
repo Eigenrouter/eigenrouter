@@ -1,53 +1,48 @@
 
-### How to Setup KPN on pfSense without seperate TV VLAN
+### How to set up KPN on pfSense without a seperate TV VLAN
 
-After install pfSense go to
+After installing pfSense go to:
 
 ```
 Interface > Assignments > Vlans
 ```
 ![vlans](../../../images/KPN/pfsense-without-vlan/Vlans.png)
 
-Create 2 Vlans *vlan6* & *Vlan4* on your WAN interface.
-
-Than go to
+Create 2 VLANs *vlan6* & *vlan4* on your WAN interface, then go to:
 
 ```
 Interface > Assignments > PPP
 ```
 
-Add a new interface and link it to you WAN port
+Add a new interface and link it to you WAN port.
 
 ![PPP](../../../images/KPN/pfsense-without-vlan/PPP.png)
 
-Than go to 
+Then go to: 
 
 ```
 Interface > Assignments 
 ```
 ![assignments](../../../images/KPN/pfsense-without-vlan/assignments.png)
 
-Set here your WAN to you PPP interface.  
-Set Lan to your lan interface / port.  
-And assign a new interface Vlan4 for kpn tv
+This is where you set your PPPOE interface as WAN.  
+Set Lan as your lan interface and assign a new interface (Vlan4) to KPN tv
 
-Than go to
+Then go to:
 
 ```
 Interface > TV_KPN
 ```
-and set this by _Send options_
+set this at _Send options_
 ```
 dhcp-class-identifier "IPTV_RG"
 ```
-and set this by _Request options_
+and set this at _Request options_
 ```
 subnet-mask,routers,classless-routes
 ```
 
-Save the settings.
-
-Than to go
+Save the settings and go to:
 
 ```
 Services > IGMP Proxy
@@ -57,11 +52,10 @@ Services > IGMP Proxy
 
 Enable IGMP
 
-add an upstream and downstream.
-Upstream takes the default route. 0.0.0.0/0 or on pfSense 0.0.0.0/1 , 128.0.0.0/1
-And by downstream add your lan ip and subnet
+Add an upstream and downstream proxy. The upstream proxy takes the default route: 0.0.0.0/0 (or on pfSense: 0.0.0.0/1 , 128.0.0.0/1)
+Add your LAN network to the downstream proxy. 
 
-Than go to
+Then go to:
 
 ```
 Services > DHCP Server > LAN
@@ -74,7 +68,7 @@ and enter the following lines
 
 In this example is the broadcast adress 10.0.0.255 set here your own broadcast address
 
-Than go to
+Then go to:
 
 ```
 Firewall > NAT > Outbound
@@ -84,7 +78,7 @@ Firewall > NAT > Outbound
 
 And add the line above under mappings
 
-Than go to
+Then go to
 
 ```
 Firewall > Rules > WAN
@@ -98,7 +92,7 @@ On the IPv4 IGMP rule enable the following line.
 _Allow IP options_
 ![ipoptions](../../../images/KPN/pfsense-without-vlan/ipoptions.png)
 
-Than go to
+Then go to:
 
 ```
 Firewall Rules LAN
@@ -113,7 +107,7 @@ On the IPv4 IGMP rule _Allow IP options_
 
 _The 213.75.112.0/21 is the ip/subnet from kpn itv_
 
-Than go to
+Then go to:
 
 ```
 Firewall > Rules > TV_KPN
