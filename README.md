@@ -17,8 +17,10 @@ Join us in our Discord server @ [ISP Custom Routers](https://discord.gg/gbpqTkxH
 * [pfSense KPN IPv6](guides/pfsense/pfSense-ipv6.md)
 
 ### Ziggo
+* Coming soon...
 
 ### T-Mobile
+* Coming soon...
 
 
 ## Mikrotik
