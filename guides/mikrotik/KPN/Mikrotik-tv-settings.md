@@ -1,7 +1,7 @@
 ### Mikrotik-tv-settings
 
 Add TV to your router configuration.
-you can only follow this how-to if your internet is setup about this [Mikrotik-internet-only](../mikrotik/Mikrotik-Internet-only.md)
+you can only follow this how-to if your internet is setup about this [Mikrotik-internet-only](Mikrotik-Internet-only.md)
 
 before you start check if multicast package is installed.
 if you running routeros 7 your fine!

@@ -12,9 +12,9 @@ Join us in our Discord server @ [ISP Custom Routers](https://discord.gg/gbpqTkxH
 ## pfSense
 
 ### KPN
-* [pfSense without separate TV VLAN](guides/pfsense/pfSense-without-vlan.md)
-* [pfSense with seperate TV VLAN](guides/pfsense/pfSense-with-vlan.md)
-* [pfSense KPN IPv6](guides/pfsense/pfSense-ipv6.md)
+* [pfSense without separate TV VLAN](guides/pfsense/KPN/pfSense-without-vlan.md)
+* [pfSense with seperate TV VLAN](guides/pfsense/KPN/pfSense-with-vlan.md)
+* [pfSense KPN IPv6](guides/pfsense/KPN/pfSense-ipv6.md)
 
 ### Ziggo
 * Coming soon...
@@ -26,9 +26,9 @@ Join us in our Discord server @ [ISP Custom Routers](https://discord.gg/gbpqTkxH
 ## Mikrotik
 
 ### KPN
-* [Mikrotik internet only](guides/mikrotik/Mikrotik-Internet-only.md)
-* [Mikrotik TV configuration](guides/mikrotik/Mikrotik-tv-settings.md)
-* [Mikrotik voice / telephony](guides/mikrotik/Mikrotik-voice-telephony.md)
+* [Mikrotik internet only](guides/mikrotik/KPN/Mikrotik-Internet-only.md)
+* [Mikrotik TV configuration](guides/mikrotik/KPN/Mikrotik-tv-settings.md)
+* [Mikrotik voice / telephony](guides/mikrotik/KPN/Mikrotik-voice-telephony.md)
 
 ### Ziggo
 * Coming soon...

@@ -6,7 +6,7 @@ After install pfSense go to
 ```
 Interface > Assignments > Vlans
 ```
-![vlans](../../images/pfsense-without-vlan/Vlans.png)
+![vlans](../../../images/pfsense-without-vlan/Vlans.png)
 
 Create 2 Vlans *vlan6* & *Vlan4* on your WAN interface.
 
@@ -18,14 +18,14 @@ Interface > Assignments > PPP
 
 Add a new interface and link it to you WAN port
 
-![PPP](../../images/pfsense-without-vlan/PPP.png)
+![PPP](../../../images/pfsense-without-vlan/PPP.png)
 
 Than go to 
 
 ```
 Interface > Assignments 
 ```
-![assignments](../../images/pfsense-without-vlan/assignments.png)
+![assignments](../../../images/pfsense-without-vlan/assignments.png)
 
 Set here your WAN to you PPP interface.  
 Set Lan to your lan interface / port.  
@@ -53,7 +53,7 @@ Than to go
 Services > IGMP Proxy
 ```
 
-![IGMPProxy](../../images/pfsense-without-vlan/IGMPPROXY.png)
+![IGMPProxy](../../../images/pfsense-without-vlan/IGMPPROXY.png)
 
 Enable IGMP
 
@@ -70,7 +70,7 @@ Services > DHCP Server > LAN
 Scroll to the bottom and open *Additional BOOTP/DHCP Options*
 and enter the following lines
 
-![BOOTP](../../images/pfsense-without-vlan/Additional-BOOTP-DHCP.png)
+![BOOTP](../../../images/pfsense-without-vlan/Additional-BOOTP-DHCP.png)
 
 In this example is the broadcast adress 10.0.0.255 set here your own broadcast address
 
@@ -80,7 +80,7 @@ Than go to
 Firewall > NAT > Outbound
 ```
 
-![BOOTP](../../images/pfsense-without-vlan/outbound.png)
+![BOOTP](../../../images/pfsense-without-vlan/outbound.png)
 
 And add the line above under mappings
 
@@ -92,11 +92,11 @@ Firewall > Rules > WAN
 
 Add the following lines
 
-![RulesWAN](../../images/pfsense-without-vlan/rules-wan.png)
+![RulesWAN](../../../images/pfsense-without-vlan/rules-wan.png)
 
 On the IPv4 IGMP rule enable the following line.
 _Allow IP options_
-![ipoptions](../../images/pfsense-without-vlan/ipoptions.png)
+![ipoptions](../../../images/pfsense-without-vlan/ipoptions.png)
 
 Than go to
 
@@ -106,10 +106,10 @@ Firewall Rules LAN
 
 and add the following lines
 
-![fwlan](../../images/pfsense-without-vlan/firewalllan.png)
+![fwlan](../../../images/pfsense-without-vlan/firewalllan.png)
 
 On the IPv4 IGMP rule _Allow IP options_
-![ipoptions](../../images/pfsense-without-vlan/ipoptions.png)
+![ipoptions](../../../images/pfsense-without-vlan/ipoptions.png)
 
 _The 213.75.112.0/21 is the ip/subnet from kpn itv_
 
@@ -120,7 +120,7 @@ Firewall > Rules > TV_KPN
 ```
 
 And add the following lines
-![tvKPN](../../images/pfsense-without-vlan/TV_KPN.png)
+![tvKPN](../../../images/pfsense-without-vlan/TV_KPN.png)
 
 On the IPv4 IGMP rule _Allow IP options_
-![ipoptions](../../images/pfsense-without-vlan/ipoptions.png)
+![ipoptions](../../../images/pfsense-without-vlan/ipoptions.png)
