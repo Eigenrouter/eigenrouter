@@ -57,7 +57,7 @@ Interfaces > WAN
 
 ![InterfaceWAN](../../../images/KPN/opnsense-without-vlan/interfaceWAN.png)
 
-Generic configuration
+**Generic configuration**
 
 Set IPv4 Configuration Type: ```PPPoE```
 
@@ -65,13 +65,13 @@ Set IPv6 Configuration Type: ```DHCPv6```
 
 Set MTU: ```1492```
 
-PPPoE configuration
+**PPPoE configuration**
 
 Set Username: ```kpn@internet``` 
 
 Set Password: ```kpn``` 
 
-DHCPv6 client configuration
+**DHCPv6 client configuration**
 
 Set Request only an IPv6 prefix: ```True```
 
@@ -93,17 +93,17 @@ Interfaces > IPTV_WAN
 
 ![InterfaceWANIPTV](../../../images/KPN/opnsense-without-vlan/interfaceWANIPTV.png)
 
-Basic configuration
+**Basic configuration**
 
 Set Enable: ```True Enable Interface```
 
 Set Description: ```IPTV_WAN```
 
-Generic configuration
+**Generic configuration**
 
 Set IPv4 Configuration Type: ```DHCP```
 
-DHCP client configuration
+**DHCP client configuration**
 
 Set Configuration Mode: ```Advanced```
 
@@ -139,14 +139,16 @@ Services > IGMP Proxy
 
 Here we are going to add 2 streams (Upstream and Downstream)
 
-Add Upstream
+**Add Upstream**
+
 Set Interface: ```IPTV_WAN```
 
 Set Type: ```Upstream Interface```
 
 Create 2 networks: ```0.0.0.0 / 1``` & ```128.0.0.0 / 1```
 
-Add Downstream
+**Add Downstream**
+
 Set Interface: ```LAN```
 
 Set Type: ```Downstream Interface```
@@ -201,7 +203,7 @@ Firewall > Rules > IPTV_WAN
 
 Create 3 rules
 
-Rule 1:
+**Rule 1:**
 
 Set Action: ```Pass```
 
@@ -223,7 +225,7 @@ Set Advanced Option: ``Show``
 
 Set allow options: ```True```
 
-Rule 2:
+**Rule 2:**
 
 Set Action: ```Pass```
 
@@ -245,7 +247,7 @@ Set Advanced Option: ``Show``
 
 Set allow options: ```True```
 
-Rule 3:
+**Rule 3:**
 
 Set Action: ```Pass```
 
@@ -275,7 +277,7 @@ Firewall > Rules > LAN
 
 Create 2 rules at top of the exisiting ones.
 
-Rule 1:
+**Rule 1:**
 
 Set Action: ```Pass```
 
@@ -297,7 +299,7 @@ Set Advanced Option: ``Show``
 
 Set allow options: ```True```
 
-Rule 2:
+**Rule 2:**
 
 Set Action: ```Pass```
 
