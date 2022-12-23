@@ -5,7 +5,7 @@ Where we use ```192.168.2.0 /24``` as our network, OPNsense admin can be visited
 
 ### Step. 1
 
-After install pfSense go to
+After install OPNsense go to
 
 ```
 System > Firmware > Status
