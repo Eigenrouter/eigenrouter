@@ -13,10 +13,14 @@ Join our Discord server @ [EIGENROUTER.NL](https://discord.gg/3ZDrCZTyXw)
     + [KPN](#kpn)
     + [Ziggo](#ziggo)
     + [T-Mobile](#t-mobile)
-  * [Mikrotik](#mikrotik)
+  * [OPNsense](#opnsense)
     + [KPN](#kpn-1)
     + [Ziggo](#ziggo-1)
     + [T-Mobile](#t-mobile-1)
+  * [Mikrotik](#mikrotik)
+    + [KPN](#kpn-2)
+    + [Ziggo](#ziggo-2)
+    + [T-Mobile](#t-mobile-2)
 
 ## pfSense
 
@@ -35,6 +39,13 @@ Join our Discord server @ [EIGENROUTER.NL](https://discord.gg/3ZDrCZTyXw)
 
 ### KPN
 * [pfSense without separate TV VLAN](guides/opnsense/KPN/opnsense-without-vlan.md)
+* [pfSense with TV VLAN](guides/opnsense/KPN/opnsense-with-vlan.md)
+
+### Ziggo
+* Coming soon...
+
+### T-Mobile
+* Coming soon...
 
 ## Mikrotik
 
