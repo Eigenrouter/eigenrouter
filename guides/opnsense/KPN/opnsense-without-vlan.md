@@ -27,6 +27,7 @@ Interfaces > Other Types > VLAN
 ![VLANs](../../../images/KPN/opnsense-without-vlan/vlans.png)
 
 Create 2 VLANs on your WAN interface:
+
 ```VLAN6```
 
 ```VLAN4```
@@ -45,7 +46,7 @@ Create a interface with VLAN tag: ```Parent: vtnet0 (wan), Tag: 4``` call it ```
 
 Change the WAN interface to ```Parent: vtnet0 (wan), Tag: 6```
 
-now Save.
+Save now.
 
 ### Step. 4
 
