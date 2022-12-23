@@ -38,8 +38,8 @@ Join our Discord server @ [EIGENROUTER.NL](https://discord.gg/3ZDrCZTyXw)
 ## OPNsense
 
 ### KPN
-* [pfSense without separate TV VLAN](guides/opnsense/KPN/opnsense-without-vlan.md)
-* [pfSense with TV VLAN](guides/opnsense/KPN/opnsense-with-vlan.md)
+* [OPNsense without separate TV VLAN](guides/opnsense/KPN/opnsense-without-vlan.md)
+* [OPNsense with TV VLAN](guides/opnsense/KPN/opnsense-with-vlan.md)
 
 ### Ziggo
 * Coming soon...
