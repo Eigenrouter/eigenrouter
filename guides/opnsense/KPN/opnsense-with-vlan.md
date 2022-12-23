@@ -26,11 +26,13 @@ Interfaces > Other Types > VLAN
 ![VLANs](../../../images/KPN/opnsense-with-vlan/vlans.png)
 
 Create 2 VLANs on your WAN interface:
+
 ```VLAN6```
 
 ```VLAN4```
 
 Create 1 VLAN on your LAN interface:
+
 ```VLAN89```
 
 
@@ -44,13 +46,13 @@ Interfaces > Assignments
 
 ![Assignments](../../../images/KPN/opnsense-with-vlan/assignments.png)
 
-Create a interface with VLAN tag: ```Parent: vtnet0 (wan), Tag: 4``` call it ```IPTV_WAN```
+Create a interface with VLAN tag: ```Parent: vtnet0 (wan), Tag: 4``` name it ```IPTV_WAN```
 
-Create a interface with VLAN tag: ```Parent: vtnet1 (lan), Tag: 89``` call it ```IPTV_LAN```
+Create a interface with VLAN tag: ```Parent: vtnet1 (lan), Tag: 89``` name it ```IPTV_LAN```
 
 Change the WAN interface to ```Parent: vtnet0 (wan), Tag: 6```
 
-now Save.
+Save now.
 
 ### Step. 4
 
@@ -62,7 +64,7 @@ Interfaces > WAN
 
 ![InterfaceWAN](../../../images/KPN/opnsense-with-vlan/interfaceWAN.png)
 
-Generic configuration
+**Generic configuration**
 
 Set IPv4 Configuration Type: ```PPPoE```
 
@@ -70,13 +72,13 @@ Set IPv6 Configuration Type: ```DHCPv6```
 
 Set MTU: ```1492```
 
-PPPoE configuration
+**PPPoE configuration**
 
 Set Username: ```kpn@internet``` 
 
 Set Password: ```kpn``` 
 
-DHCPv6 client configuration
+**DHCPv6 client configuration**
 
 Set Request only an IPv6 prefix: ```True```
 
@@ -98,17 +100,17 @@ Interfaces > IPTV_WAN
 
 ![InterfaceWANIPTV](../../../images/KPN/opnsense-with-vlan/interfaceWANIPTV.png)
 
-Basic configuration
+**Basic configuration**
 
 Set Enable: ```True Enable Interface```
 
 Set Description: ```IPTV_WAN```
 
-Generic configuration
+**Generic configuration**
 
 Set IPv4 Configuration Type: ```DHCP```
 
-DHCP client configuration
+**DHCP client configuration**
 
 Set Configuration Mode: ```Advanced```
 
@@ -128,17 +130,17 @@ Interfaces > IPTV_LAN
 
 ![InterfaceLANIPTV](../../../images/KPN/opnsense-with-vlan/interfaceLANIPTV.png)
 
-Basic configuration
+**Basic configuration**
 
 Set Enable: ```True Enable Interface```
 
 Set Description: ```IPTV_LAN```
 
-Generic configuration
+**Generic configuration**
 
 Set IPv4 Configuration Type: ```Static IPv4```
 
-Static IPv4 configuration
+**Static IPv4 configuration**
 
 Set IPv4 address: ```192.168.89.1 / 24```
 
@@ -168,14 +170,16 @@ Services > IGMP Proxy
 
 Here we are going to add 2 streams (Upstream and Downstream)
 
-Add Upstream
+**Add Upstream**
+
 Set Interface: ```IPTV_WAN```
 
 Set Type: ```Upstream Interface```
 
 Create 2 networks: ```0.0.0.0 / 1``` & ```128.0.0.0 / 1```
 
-Add Downstream
+**Add Downstream**
+
 Set Interface: ```IPTV_LAN```
 
 Set Type: ```Downstream Interface```
@@ -194,7 +198,7 @@ Services > DHCPv4 > IPTV_LAN
 
 ![DHCPv4](../../../images/KPN/opnsense-with-vlan/dhcp4range.png)
 
-Set Enable ```True Enable DHCP server on the IPTV_LAN interface```
+Set Enable ```True``` Enable DHCP server on the IPTV_LAN interface
 
 Set Range ```192.168.89.10 / 192.168.89.245```
 
@@ -242,7 +246,7 @@ Firewall > Rules > IPTV_WAN
 
 Create 3 rules
 
-Rule 1:
+**Rule 1:**
 
 Set Action: ```Pass```
 
@@ -264,7 +268,7 @@ Set Advanced Option: ``Show``
 
 Set allow options: ```True```
 
-Rule 2:
+**Rule 2:**
 
 Set Action: ```Pass```
 
@@ -286,7 +290,7 @@ Set Advanced Option: ``Show``
 
 Set allow options: ```True```
 
-Rule 3:
+**Rule 3:**
 
 Set Action: ```Pass```
 
@@ -316,7 +320,7 @@ Firewall > Rules > IPTV_LAN
 
 Create 3 rules at top of the exisiting ones.
 
-Rule 1:
+**Rule 1:**
 
 Set Action: ```Pass```
 
@@ -338,7 +342,7 @@ Set Advanced Option: ``Show``
 
 Set allow options: ```True```
 
-Rule 2:
+**Rule 2:**
 
 Set Action: ```Pass```
 
@@ -356,7 +360,7 @@ Set Source: ```LAN net```
 
 Set Destination: ```Single host or Network``` ```213.75.112.0 / 21```
 
-Rule 3:
+**Rule 3:**
 
 Set Action: ```Pass```
 
