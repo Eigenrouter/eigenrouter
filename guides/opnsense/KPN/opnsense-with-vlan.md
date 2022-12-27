@@ -216,7 +216,7 @@ Set Additional Options
 60 / Text / IPTV_RG
 ```
 ```
-28 / IP address or host / 192.168.2.255
+28 / IP address or host / 192.168.89.255
 ```
 
 ### Step. 10
