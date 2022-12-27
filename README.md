@@ -61,7 +61,13 @@ Join our Discord server @ [EIGENROUTER.NL](https://discord.gg/3ZDrCZTyXw)
 * [Mikrotik internet only](guides/mikrotik/T-Mobile/Mikrotik-Internet-only.md)
 
 
+### Contributing
+Pull requests, bug fixes, and new features are welcome!
+
 ```
-Contribute?
-Make a pull request
+Fork the repository
+Create your feature branch (git checkout -b my-new-feature)
+Commit your changes (git commit -a -m 'Add some feature')
+Push to the branch (git push origin my-new-feature)
+Create new Pull Request on GitHub
 ```
