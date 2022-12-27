@@ -103,7 +103,7 @@ Interfaces > IPTV_WAN
 
 **Basic configuration**
 
-Set Enable: ```True Enable Interface```
+Set Enable: ```True``` Enable Interface
 
 Set Description: ```IPTV_WAN```
 
@@ -133,7 +133,7 @@ Interfaces > IPTV_LAN
 
 **Basic configuration**
 
-Set Enable: ```True Enable Interface```
+Set Enable: ```True``` Enable Interface
 
 Set Description: ```IPTV_LAN```
 
