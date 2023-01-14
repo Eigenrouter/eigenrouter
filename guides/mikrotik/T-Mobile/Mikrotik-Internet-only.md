@@ -20,7 +20,8 @@ add interface=ether1 name=vlan1.300 vlan-id=300
 ```
 Now we configure the DHCP client on VLAN 300
 ```
-/ip dhcp-client add interface=vlan1.300 add-default-route=yes disabled=no use-peer-dns=no use-peer-ntp=no
+/ip dhcp-client 
+add interface=vlan1.300 add-default-route=yes disabled=no use-peer-dns=no use-peer-ntp=no
 ```
 We will now add the bridge interface for the LAN
 ```
