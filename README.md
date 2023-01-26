@@ -55,7 +55,7 @@ Join our Discord server @ [EIGENROUTER.NL](https://discord.gg/jfwsQUgU9e)
 * [Mikrotik voice / telephony](guides/mikrotik/KPN/Mikrotik-voice-telephony.md)
 
 ### Ziggo
-* Coming soon...
+* [Mikrotik internet only](guides/mikrotik/Ziggo/Mikrotik-internet-only.md)
 
 ### T-Mobile
 * [Mikrotik internet only](guides/mikrotik/T-Mobile/Mikrotik-Internet-only.md)
