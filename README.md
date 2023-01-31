@@ -9,18 +9,21 @@ If you have interest / knowledge in this area and want to help other people, lea
 Join our Discord server @ [EIGENROUTER.NL](https://discord.gg/jfwsQUgU9e)
 
 - [EIGEN ROUTER](#eigen-router)
-  * [pfSense](#pfsense)
-    + [KPN](#kpn)
-    + [Ziggo](#ziggo)
-    + [T-Mobile](#t-mobile)
-  * [OPNsense](#opnsense)
-    + [KPN](#kpn-1)
-    + [Ziggo](#ziggo-1)
-    + [T-Mobile](#t-mobile-1)
-  * [Mikrotik](#mikrotik)
-    + [KPN](#kpn-2)
-    + [Ziggo](#ziggo-2)
-    + [T-Mobile](#t-mobile-2)
+  - [pfSense](#pfsense)
+    - [KPN](#kpn)
+    - [Ziggo](#ziggo)
+    - [T-Mobile](#t-mobile)
+  - [OPNsense](#opnsense)
+    - [KPN](#kpn-1)
+    - [Ziggo](#ziggo-1)
+    - [T-Mobile](#t-mobile-1)
+  - [Mikrotik](#mikrotik)
+    - [KPN](#kpn-2)
+    - [Ziggo](#ziggo-2)
+    - [T-Mobile](#t-mobile-2)
+    - [Solcon](#solcon)
+    - [Contributing](#contributing)
+  
 
 ## pfSense
 
@@ -59,6 +62,9 @@ Join our Discord server @ [EIGENROUTER.NL](https://discord.gg/jfwsQUgU9e)
 
 ### T-Mobile
 * [Mikrotik internet only](guides/mikrotik/T-Mobile/Mikrotik-Internet-only.md)
+
+### Solcon
+* [Solcon Internet only](guides/mikrotik/Solcon/Internet-only.md)
 
 
 ### Contributing
