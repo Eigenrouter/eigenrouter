@@ -22,7 +22,6 @@ Join our Discord server @ [EIGENROUTER.NL](https://discord.gg/jfwsQUgU9e)
     - [Ziggo](#ziggo-2)
     - [T-Mobile](#t-mobile-2)
     - [Solcon](#solcon)
-    - [Contributing](#contributing)
   
 
 ## pfSense
