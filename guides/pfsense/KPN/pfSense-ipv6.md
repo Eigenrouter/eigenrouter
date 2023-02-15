@@ -160,7 +160,7 @@ Set Destination: ```any```
 
 ![fwLANicmp6](../../../images/KPN/pfsense-ipv6/fwLANicmp6.png)
 
-IPv4 ICMP
+IPv6 ICMP
 
 Set Address Family: ```IPv6```
 
@@ -168,7 +168,7 @@ Set Protocol: ```ICMP```
 
 Set ICMP Subtypes: ```Echo request```
 
-Set Source: ```LAN net```
+Set Source: ```LAN net``` <- image shows any
 
 Set Destination: ```any```
 
