@@ -168,7 +168,7 @@ Set Protocol: ```ICMP```
 
 Set ICMP Subtypes: ```Echo request```
 
-Set Source: ```LAN net``` <- image shows any
+Set Source: ```LAN net```
 
 Set Destination: ```any```
 
