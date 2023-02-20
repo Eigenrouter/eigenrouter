@@ -4,42 +4,38 @@ This guide explains how to add KPN IPTV to your router configuration. Note that 
 
 Before you begin, if you are running Routeros 6, make sure the extra "multicast" package is installed. If you are running Routeros 7, skip this step. Routeros 6 does not include the IGMP Proxy by default.
 
-Add a VLAN interface with VLAN id 4 and add it to ether1. We are assuming that ether1 is the port that connects to your NTU or (bridged) Modem. 
+Add a VLAN interface with VLAN id 4 and add it to ether1. We are assuming that ether1 is the port that connects to your NTU or (bridged) Modem. We will also add a VLAN interface to our bridge (that we created in the internet-only guide), which will be used for our IPTV devices. 
 ```
 /interface vlan
-add arp=proxy-arp comment=tv-lan interface=local name=Vlan3 \
-    vlan-id=3
 add comment=TV interface=ether1 name=vlan1.4 vlan-id=4
+add comment=tv-lan interface=local name=Vlan3 vlan-id=3
 ```
 
-Turn on *igmp-snooping* on the bridge interface. The command below adds a bridge. If you already have a bridge that you want to use for this, only set igmp-snooping on it to yes.
+Turn on *igmp-snooping* on the bridge interface. The command below adds a bridge. If you already have a bridge that you want to use for this, only set igmp-snooping on it to yes. We will also complete the bridge vlan table and assign an ethernet interface to vlan 3 via PVID. 
 ```
 /interface bridge
-add arp=proxy-arp igmp-snooping=yes name=local protocol-mode=none \
-    vlan-filtering=yes
+add arp=proxy-arp igmp-snooping=yes name=local protocol-mode=none vlan-filtering=yes
 
 /interface bridge vlan
+add bridge=local tagged=local vlan-ids=3
 
-add bridge=local tagged=local,ether2 vlan-ids=3
+/interface bridge port
+add interface=ether3 pvid=3
 ```
-Set Ip Adress for tv-lan network
 
+Set Ip Address for tv-lan network
 ```
 /ip pool
 add name=tv-lan ranges=10.0.3.20-10.0.3.254
 
 /ip dhcp-server
-add address-pool=tv-lan interface=Vlan3 lease-time=30m name=\
-    tv-lan
+add address-pool=tv-lan interface=Vlan3 lease-time=30m name=tv-lan
 
 /ip address
-add address=10.0.3.1/24 comment="tv-lan (vlan3)" interface=Vlan3 \
-    network=10.0.3.0
+add address=10.0.3.1/24 comment="tv-lan (vlan3)" interface=Vlan3 network=10.0.3.0
 
 /ip dhcp-server network
-add address=10.0.3.0/24 dns-server=8.8.8.8,8.8.4.4 domain=tv-lan.local gateway=\
-    10.0.3.1
-
+add address=10.0.3.0/24 dns-server=8.8.8.8,8.8.4.4 domain=tv-lan.local gateway=10.0.3.1
 ```
 
 Add DHCP Options
@@ -57,8 +53,7 @@ Configure the dhcp client and its options
 /ip dhcp-client option
 add code=60 name=option60-vendorclass value="'IPTV_RG'"
 /ip dhcp-client
-add add-default-route=special-classless default-route-distance=210 dhcp-options=option60-vendorclass disabled=no \
-    interface=vlan1.4 use-peer-dns=no use-peer-ntp=no
+add add-default-route=special-classless default-route-distance=210 dhcp-options=option60-vendorclass disabled=no interface=vlan1.4 use-peer-dns=no use-peer-ntp=no
 ```
 
 Configure the IGMP Proxy
