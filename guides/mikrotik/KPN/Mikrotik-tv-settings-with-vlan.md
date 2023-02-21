@@ -74,6 +74,12 @@ add action=masquerade chain=srcnat comment="IPTV" dst-address=217.166.0.0/16 ou
 add action=masquerade chain=srcnat comment="IPTV" dst-address=10.207.0.0/20 out-interface=vlan1.4
 ```
 
+Set Dhcp-option for tv
+```
+/ip dhcp-server 
+network set numbers=1 dhcp-option-set=IPTV
+```
+
 The DHCP options for the existing DHCP Server don't "just work", you have to select them in the DHCP Network. See IP > DHCP Server > Networks and double click your existing network. Add the option set to it with the dropdown menu.
 
 Note that IPTV will only work on ports that you add to the bridge interface "local" in Bridge > Ports. Not on switches behind the Mikrotik router. Keep this in mind when budgetting interfaces to client devices or switches or any other device that might need an ethernet connection. 
