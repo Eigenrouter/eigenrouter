@@ -74,7 +74,7 @@ add action=masquerade chain=srcnat comment="IPTV" dst-address=217.166.0.0/16 ou
 add action=masquerade chain=srcnat comment="IPTV" dst-address=10.207.0.0/20 out-interface=vlan1.4
 
 /ip firewall filter
-add action=accept chain=input comment="IPTV IGMP" dst-address=224.0.0.0/8 in-interface=vlan1.4 protocol=igmp
+add action=accept chain=input comment="IPTV IGMP" dst-address=224.0.0.0/4 in-interface=vlan1.4 protocol=igmp
 ```
 
 Set Dhcp-option for tv
