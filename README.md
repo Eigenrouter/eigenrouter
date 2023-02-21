@@ -59,6 +59,7 @@ Join our Discord server @ [EIGENROUTER.NL](https://discord.gg/jfwsQUgU9e)
 ### KPN
 * [Mikrotik internet only](guides/mikrotik/KPN/Mikrotik-Internet-only.md)
 * [Mikrotik TV configuration](guides/mikrotik/KPN/Mikrotik-tv-settings.md)
+* [Mikrotik TV configuration With Vlan](guides/mikrotik/KPN/Mikrotik-tv-settings-with-vlan.md)
 * [Mikrotik voice / telephony](guides/mikrotik/KPN/Mikrotik-voice-telephony.md)
 
 ### Ziggo
