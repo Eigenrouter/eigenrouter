@@ -35,7 +35,7 @@ add address-pool=tv-lan interface=Vlan3 lease-time=30m name=tv-lan
 add address=10.0.3.1/24 comment="tv-lan (vlan3)" interface=Vlan3 network=10.0.3.0
 
 /ip dhcp-server network
-add address=10.0.3.0/24 dns-server=8.8.8.8,8.8.4.4 domain=tv-lan.local gateway=10.0.3.1
+add address=10.0.3.0/24 dns-server=195.121.1.34,195.121.1.66 domain=tv-lan.local gateway=10.0.3.1
 ```
 
 Add DHCP Options
@@ -60,7 +60,7 @@ Configure the IGMP Proxy
 ```
 /routing igmp-proxy interface
 add alternative-subnets=0.0.0.0/0 interface=vlan1.4 upstream=yes
-add interface=local
+add interface=vlan3
 
 /routing igmp-proxy
 set quick-leave=yes
