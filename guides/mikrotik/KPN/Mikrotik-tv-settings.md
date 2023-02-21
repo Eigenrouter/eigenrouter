@@ -51,6 +51,9 @@ Add firewall rules
 add action=masquerade chain=srcnat comment="IPTV" dst-address=213.75.0.0/16 out-interface=vlan1.4
 add action=masquerade chain=srcnat comment="IPTV" dst-address=217.166.0.0/16 out-interface=vlan1.4
 add action=masquerade chain=srcnat comment="IPTV" dst-address=10.207.0.0/20 out-interface=vlan1.4
+
+/ip firewall filter
+add action=accept chain=input comment="IPTV IGMP" dst-address=224.0.0.0/8 in-interface=vlan1.4 protocol=igmp
 ```
 
 The DHCP options for the existing DHCP Server don't "just work", you have to select them in the DHCP Network. See IP > DHCP Server > Networks and double click your existing network. Add the option set to it with the dropdown menu.
