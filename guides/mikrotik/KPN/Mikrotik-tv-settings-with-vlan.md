@@ -20,7 +20,7 @@ add arp=proxy-arp igmp-snooping=yes name=local protocol-mode=none vlan-filtering
 add bridge=local tagged=local vlan-ids=3
 
 /interface bridge port
-add interface=ether3 pvid=3
+add bridge=local interface=ether3 pvid=3
 ```
 
 Set Ip Address for tv-lan network
