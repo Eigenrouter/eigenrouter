@@ -53,4 +53,4 @@ add from-pool=*0 interface=local
 
 
 
-Now, if you connect your device to ether2, you should get an IP address via DHCP in the 10.0.0.0/24 range, and you will have internet access. We recommend updating the Mikrotik device to the latest Stable version of Routeros 6 or 7. You can do this at System > Packages > Check for Updates. Also update the firmware at System > RouterBOARD > Upgrade. Both updates require a restart. 
+Now, you have added ipv6 to your Mikrotik device. We recommend updating the Mikrotik device to the latest Stable version of Routeros 6 or 7. You can do this at System > Packages > Check for Updates. Also update the firmware at System > RouterBOARD > Upgrade. Both updates require a restart. 
