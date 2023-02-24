@@ -15,6 +15,7 @@ set *0 only-one=yes use-compression=yes use-ipv6=no use-upnp=no
 add name=default-ipv6 only-one=yes remote-ipv6-prefix-pool=*0 use-compression=yes use-upnp=no
 ```
 Now we make the pppoe connection with KPN (REMOVE YOUR OLD PPPOE CONNECTION)
+or on your existing pppoe client change profile to default-ipv6
 
 ```
 /interface pppoe-client
