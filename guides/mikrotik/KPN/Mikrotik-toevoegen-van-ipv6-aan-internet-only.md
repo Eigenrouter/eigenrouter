@@ -1,4 +1,4 @@
-### Mikrotik-toevoegen van ipv6 aan internet only
+### Mikrotik - adding ipv6 to internet only
 
 This guide is based on a Mikrotik device with at least two Ethernet ports. We start with a completely empty configuration. To wipe your configuration, connect to your Mikrotik device via Winbox or Webfig (HTTP) and navigate to System > Reset Configuration. Tick “No Default Configuration” and reset the device via the “Reset Configuration” button. The device will now restart.
 
@@ -29,6 +29,13 @@ Now we make the pppoe connection with KPN (REMOVE YOUR OLD PPPOE CONNECTION)
 add add-default-route=yes allow=pap disabled=no interface=vlan1.6 keepalive-timeout=20 max-mru=1500 max-mtu=1500 name="pppoe-client" profile=default-ipv6 user=kpn@kpn
 ```
 
+Add ipv6 dhcp client
+
+```
+/ipv6 dhcp-client
+add add-default-route=yes interface=pppoe-client pool-name=0 pool-prefix-length=48 request=prefix use-peer-dns=no
+```
+
 Add basic firewall
 
 ```
@@ -51,11 +58,6 @@ Add Lan Address
 add from-pool=*0 interface=local
 ```
 
-Add ipv6 dhcp client
 
-```
-/ipv6 dhcp-client
-add add-default-route=yes interface=pppoe-client pool-name=0 pool-prefix-length=48 request=prefix use-peer-dns=no
-```
 
 Now, if you connect your device to ether2, you should get an IP address via DHCP in the 10.0.0.0/24 range, and you will have internet access. We recommend updating the Mikrotik device to the latest Stable version of Routeros 6 or 7. You can do this at System > Packages > Check for Updates. Also update the firmware at System > RouterBOARD > Upgrade. Both updates require a restart. 
