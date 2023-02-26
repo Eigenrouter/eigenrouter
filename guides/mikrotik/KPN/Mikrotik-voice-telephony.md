@@ -11,3 +11,10 @@ add interface=ether1 l2mtu=1594 name=vlan1.7 vlan-id=7
 ```
 
 Your LAN can now theoretically connect to the KPN VoIP servers. Configuration on your client device(s) will be required, but this tutorial will not cover that. 
+
+A small footnote: 
+You may have to disable the 'sip' service in /ip firewall service-ports. Generally it depends on the equipment used. If you experience problems like one-way audio or not being able to register your SIP account, disable this service. 
+
+```
+/ip firewall service-port set disabled=yes sip
+```
