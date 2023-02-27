@@ -42,7 +42,7 @@ Configure ND Settings
 
 ```
 /ipv6 nd
-add advertise-mac-address=no disabled=yes hop-limit=64 interface=local
+add advertise-mac-address=no hop-limit=64 interface=local
 ```
 
 Add LAN Address
