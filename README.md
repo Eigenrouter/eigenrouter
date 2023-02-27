@@ -60,6 +60,7 @@ Join our Discord server @ [EIGENROUTER.NL](https://discord.gg/jfwsQUgU9e)
 * [Mikrotik internet only](guides/mikrotik/KPN/Mikrotik-Internet-only.md)
 * [Mikrotik TV configuration](guides/mikrotik/KPN/Mikrotik-tv-settings.md)
 * [Mikrotik TV configuration With Vlan](guides/mikrotik/KPN/Mikrotik-tv-settings-with-vlan.md)
+* [Mikrotik Add IPv6 To Internet](guides/mikrotik/KPN/Mikrotik-toevoegen-van-ipv6-aan-internet-only.md)
 * [Mikrotik voice / telephony](guides/mikrotik/KPN/Mikrotik-voice-telephony.md)
 
 ### Ziggo
