@@ -26,7 +26,7 @@ Add the DHCPv6 client
 
 ```
 /ipv6 dhcp-client
-add add-default-route=yes interface=pppoe-client pool-name=0 pool-prefix-length=48 request=prefix use-peer-dns=no
+add add-default-route=yes interface=pppoe-client pool-name=*0 pool-prefix-length=48 request=prefix use-peer-dns=no
 ```
 
 Add basic firewall
