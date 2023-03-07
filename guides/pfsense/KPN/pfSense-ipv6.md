@@ -17,6 +17,10 @@ Interface > WAN
 
 ![interfaceWAN](../../../images/KPN/pfsense-ipv6/interfaceWAN.png)
 
+Make sure the MTU size is set to 1500 and the MSS is set to 1492.
+
+![InterfaceWanPPPoE](../../../images/KPN/pfsense-ipv6/interfaceWAN_PPPoE.png)
+
 
 ![IPv6ConfigType](../../../images/KPN/pfsense-ipv6/IPv6ConfigType.png)
 
