@@ -17,9 +17,9 @@ Interface > WAN
 
 ![interfaceWAN](../../../images/KPN/pfsense-ipv6/interfaceWAN.png)
 
-Make sure the MTU size is set to 1500 and the MSS is set to 1492.
-
 ![InterfaceWanPPPoE](../../../images/KPN/pfsense-ipv6/interfaceWAN_PPPoE.png)
+
+Make sure the MTU size is set to 1500 and the MSS is set to 1492.
 
 
 ![IPv6ConfigType](../../../images/KPN/pfsense-ipv6/IPv6ConfigType.png)
@@ -40,7 +40,7 @@ Set Do not wait for a RA: ```True```
 
 ### Step. 2
 
-Go to 
+Go to
 
 ```
 Interface > LAN
@@ -60,7 +60,7 @@ Set IPv6 Prefix ID: ```1``` (* can be something between (hexadecimal from 0 to f
 
 ### Step. 3
 
-Go to 
+Go to
 
 ```
 Services > DHCPv6 & RA
@@ -81,7 +81,7 @@ Set Prefix Delegation Size: ```56```
 
 Go to tab
 ```
-LAN > Router Advertisements 
+LAN > Router Advertisements
 ```
 
 ![DHCPv6RA](../../../images/KPN/pfsense-ipv6/DHCPv6RA.png)
@@ -90,7 +90,7 @@ Set Router mode: ```Assisted - RA Flags [managed, other stateful], Prefix Flags 
 
 ### Step. 4
 
-Go to 
+Go to
 
 ```
 Firewall > Rules > WAN
