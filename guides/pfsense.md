@@ -2,13 +2,13 @@
 title: Router: pfSense
 description: Information about pfSense
 published: true
-date: 2023-04-16T18:46:21.613Z
+date: 2023-04-16T18:48:02.409Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T16:56:15.123Z
 ---
 
-# Router: pfSense - pfsense.org
+# Router - pfSense - pfsense.org
 
 pfSense is a firewall/router computer software distribution based on FreeBSD. The open source pfSense Community Edition (CE) and pfSense Plus is installed on a physical computer or a virtual machine to make a dedicated firewall/router for a network. It can be configured and upgraded through a web-based interface, and requires no knowledge of the underlying FreeBSD system to manage.
 
