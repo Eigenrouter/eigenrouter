@@ -2,7 +2,7 @@
 title: EIGENROUTER.NL
 description: 
 published: true
-date: 2023-04-16T15:49:07.555Z
+date: 2023-04-16T15:49:37.979Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T14:52:02.218Z
@@ -27,13 +27,13 @@ Join our Discord server @ [EIGENROUTER.NL](https://discord.gg/jfwsQUgU9e)
     - [KPN](#kpn-1)
     - [Ziggo](#ziggo-1)
     - [T-Mobile](#t-mobile-1)
-    - [Online](#online-1)
+    - [Online](#online)
   - [Mikrotik](#mikrotik)
     - [KPN](#kpn-2)
     - [Ziggo](#ziggo-2)
     - [T-Mobile](#t-mobile-2)
-    - [Solcon](#solcon-2)
-    - [Online](#online-2)
+    - [Solcon](#solcon)
+    - [Online](#online)
   
 
 ## pfSense
