@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2023-04-16T14:52:02.218Z
 ---
 
-# EIGEN ROUTER
+# EIGEN ROUTER TEST
 
 Detailed how-to information about setting up Internet, IPTV & VoIP on your own router from different ISPs.
 
