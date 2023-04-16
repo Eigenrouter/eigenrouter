@@ -1,8 +1,8 @@
 ---
 title: Mikrotik TV configuration With VLAN
-description: 
+description: How to Setup KPN on Mikrotik with a seperate TV VLAN
 published: true
-date: 2023-04-16T17:32:48.816Z
+date: 2023-04-16T19:00:30.793Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T17:32:48.816Z
