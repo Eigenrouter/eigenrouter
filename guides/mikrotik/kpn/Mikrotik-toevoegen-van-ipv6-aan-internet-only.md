@@ -1,8 +1,8 @@
 ---
-title: KPN IPv6 with Internet Only
+title: Mikrotik IPv6 with Internet Only
 description: 
 published: true
-date: 2023-04-16T17:39:04.633Z
+date: 2023-04-16T17:40:35.380Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T17:39:04.633Z
