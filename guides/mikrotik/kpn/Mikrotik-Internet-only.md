@@ -1,8 +1,8 @@
 ---
 title: Mikrotik Internet Only
-description: 
+description: How to Setup KPN Internet Only on Mikrotik
 published: true
-date: 2023-04-16T17:27:19.359Z
+date: 2023-04-16T18:59:01.410Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T17:27:19.359Z
