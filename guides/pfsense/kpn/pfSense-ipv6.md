@@ -1,8 +1,8 @@
 ---
 title: KPN IPv6 pfSense
-description: 
+description: How to Setup KPN IPv6 in pfSense
 published: true
-date: 2023-04-16T17:17:42.919Z
+date: 2023-04-16T17:22:00.509Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T17:17:42.919Z
