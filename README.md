@@ -2,7 +2,7 @@
 title: EIGENROUTER.NL
 description: 
 published: true
-date: 2023-04-16T15:41:50.170Z
+date: 2023-04-16T15:46:03.205Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T14:52:02.218Z
@@ -39,7 +39,7 @@ Join our Discord server @ [EIGENROUTER.NL](https://discord.gg/jfwsQUgU9e)
 ## pfSense
 
 ### KPN
-* [pfSense without seperate TV VLAN](/guides/pfsense/kpn/pfSense-without-vlan)
+* [pfSense without seperate TV VLAN](/guides/pfsense/kpn/pfSense-without-vlan.md)
 * [pfSense with seperate TV VLAN](guides/pfsense/KPN/pfSense-with-vlan.md)
 * [pfSense KPN IPv6](guides/pfsense/KPN/pfSense-ipv6.md)
 
