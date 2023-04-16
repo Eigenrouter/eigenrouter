@@ -2,7 +2,7 @@
 title: OPNsense without seperate TV VLAN
 description: 
 published: true
-date: 2023-04-16T18:20:09.703Z
+date: 2023-04-16T18:20:56.994Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T18:13:46.292Z
@@ -284,7 +284,7 @@ Go to
 Firewall > Rules > LAN
 ```
 
-![FWLAN](/images/KPN/opnsense-without-vlan/fwlan.png)
+![FWLAN](/images/kpn/opnsense-without-vlan/fwlan.png)
 
 Create 2 rules at top of the exisiting ones.
 
