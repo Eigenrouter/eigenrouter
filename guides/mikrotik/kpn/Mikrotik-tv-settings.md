@@ -2,7 +2,7 @@
 title: Mikrotik TV configuration
 description: 
 published: true
-date: 2023-04-16T17:30:49.328Z
+date: 2023-04-16T17:35:57.520Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T17:30:49.328Z
@@ -10,7 +10,7 @@ dateCreated: 2023-04-16T17:30:49.328Z
 
 ### Mikrotik-tv-settings
 
-This guide explains how to add KPN IPTV to your router configuration. Note that we are assuming that you followed our tutorial on how to set up internet on your Mikrotik. If your configuration differs, change the settings below to match your configuration. If you are unsure how to do this, feel free to ask about it in our Discord server. The reference internet configuration can be found here: [Mikrotik-internet-only](Mikrotik-Internet-only.md)
+This guide explains how to add KPN IPTV to your router configuration. Note that we are assuming that you followed our tutorial on how to set up internet on your Mikrotik. If your configuration differs, change the settings below to match your configuration. If you are unsure how to do this, feel free to ask about it in our Discord server. The reference internet configuration can be found here: [Mikrotik-Internet-only](/guides/mikrotik/kpn/Mikrotik-Internet-only.md)
 
 Before you begin, if you are running Routeros 6, make sure the extra "multicast" package is installed. If you are running Routeros 7, skip this step. Routeros 6 does not include the IGMP Proxy by default.
 
