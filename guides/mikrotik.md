@@ -2,13 +2,13 @@
 title: Router - Mikrotik
 description: Information about Mikrotik
 published: true
-date: 2023-04-16T19:07:53.213Z
+date: 2023-04-16T19:09:19.405Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T17:49:55.768Z
 ---
 
-# Router - Mikrotik
+# Router - Mikrotik - mikrotik.com
 
 MikroTik (officially SIA "Mikrotīkls") is a Latvian network equipment manufacturer. The company develops and sells wired and wireless network routers, network switches, access points, as well as operating systems and auxiliary software. The company was founded in 1996, and as of August 2019, the company website reported an estimated 280 employees. In 2021, with a value of EUR 1.24B, Mikrotik was the 3rd largest company in Latvia and the first private company to surpass EUR 1B value in Latvia.
 
