@@ -2,7 +2,7 @@
 title: OPNsense without seperate TV VLAN
 description: 
 published: true
-date: 2023-04-16T18:21:36.684Z
+date: 2023-04-16T18:24:16.005Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T18:13:46.292Z
