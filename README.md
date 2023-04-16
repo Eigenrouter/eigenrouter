@@ -2,7 +2,7 @@
 title: EIGENROUTER.NL
 description: 
 published: true
-date: 2023-04-16T15:47:36.764Z
+date: 2023-04-16T15:48:28.204Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T14:52:02.218Z
@@ -43,23 +43,11 @@ Join our Discord server @ [EIGENROUTER.NL](https://discord.gg/jfwsQUgU9e)
 * [pfSense with seperate TV VLAN](/guides/pfsense/kpn/pfSense-with-vlan.md)
 * [pfSense KPN IPv6](/guides/pfsense/kpn/pfSense-ipv6.md)
 
-### Ziggo
-* Coming soon...
-
-### T-Mobile
-* Coming soon...
-
 ## OPNsense
 
 ### KPN
 * [OPNsense without separate TV VLAN](/guides/opnsense/kpn/opnsense-without-vlan.md)
 * [OPNsense with TV VLAN](/guides/opnsense/kpn/opnsense-with-vlan.md)
-
-### Ziggo
-* Coming soon...
-
-### T-Mobile
-* Coming soon...
 
 ### Online
 * [OPNsense internet only configuration](/guides/opnsense/Online/opnsense-internet-only.md)
