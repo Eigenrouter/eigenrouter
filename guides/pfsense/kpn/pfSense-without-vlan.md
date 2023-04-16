@@ -2,13 +2,13 @@
 title: KPN without seperate TV VLAN
 description: How to set up KPN on pfSense without a seperate TV VLAN
 published: true
-date: 2023-04-16T15:38:53.178Z
+date: 2023-04-16T17:22:31.264Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T14:54:09.153Z
 ---
 
-### How to set up KPN on pfSense without a seperate TV VLAN
+### How to Setup KPN on pfSense without a seperate TV VLAN
 
 After installing pfSense go to:
 
