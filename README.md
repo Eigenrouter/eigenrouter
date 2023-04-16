@@ -2,7 +2,7 @@
 title: EIGENROUTER.NL
 description: 
 published: true
-date: 2023-04-16T19:37:20.784Z
+date: 2023-04-16T19:38:54.977Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T14:52:02.218Z
@@ -20,7 +20,7 @@ Join our Discord server @ [https://discord.gg/jfwsQUgU9e](https://discord.gg/jfw
 
 ## TABLE OF CONTENT
 
-- [EIGEN ROUTER](#eigen-router)
+- EIGENROUTER</area>.NL
   - [pfSense](#pfsense)
     - [KPN](#kpn)
     - [Ziggo](#ziggo)
