@@ -1,8 +1,8 @@
 ---
-title: EIGENROUTER.NL 
-description: 
+title: EIGENROUTER.NL
+description: A community driven provider for custom routers guides for ISP's in the Netherlands
 published: true
-date: 2023-04-16T15:57:14.267Z
+date: 2023-04-16T19:04:26.438Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-15T18:58:11.325Z
