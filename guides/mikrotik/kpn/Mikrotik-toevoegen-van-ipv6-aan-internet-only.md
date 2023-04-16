@@ -1,8 +1,8 @@
 ---
 title: Mikrotik IPv6 with Internet Only
-description: 
+description: How to Setup KPN IPv6 in Mikrotik
 published: true
-date: 2023-04-16T17:40:35.380Z
+date: 2023-04-16T19:01:13.206Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T17:39:04.633Z
