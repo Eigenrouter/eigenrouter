@@ -1,8 +1,8 @@
 ---
 title: Router: OPNsense
-description: 
+description: Information about OPNsense
 published: true
-date: 2023-04-16T18:38:26.090Z
+date: 2023-04-16T18:46:44.783Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T18:18:51.711Z
