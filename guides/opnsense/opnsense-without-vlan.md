@@ -2,7 +2,7 @@
 title: OPNsense without seperate TV VLAN
 description: 
 published: true
-date: 2023-04-16T18:16:09.327Z
+date: 2023-04-16T18:20:09.703Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T18:13:46.292Z
@@ -22,7 +22,7 @@ After install OPNsense go to
 System > Firmware > Status
 ```
 
-![FWupdate](../../../images/KPN/opnsense-without-vlan/fwupdate.png)
+![FWupdate](/images/kpn/opnsense-without-vlan/fwupdate.png)
 
 Click ```Check for updates``` if there are updates available scroll down the page and install them.
 
@@ -34,7 +34,7 @@ Go to
 Interfaces > Other Types > VLAN
 ```
 
-![VLANs](../../../images/KPN/opnsense-without-vlan/vlans.png)
+![VLANs](/images/kpn/opnsense-without-vlan/vlans.png)
 
 Create 2 VLANs on your WAN interface:
 
@@ -50,7 +50,7 @@ Go to
 Interfaces > Assignments
 ```
 
-![Assignments](../../../images/KPN/opnsense-without-vlan/assignments.png)
+![Assignments](/images/kpn/opnsense-without-vlan/assignments.png)
 
 Create a interface with VLAN tag: ```Parent: vtnet0 (wan), Tag: 4``` call it ```IPTV_WAN```
 
@@ -66,7 +66,7 @@ Go to
 Interfaces > WAN
 ```
 
-![InterfaceWAN](../../../images/KPN/opnsense-without-vlan/interfaceWAN.png)
+![InterfaceWAN](/images/kpn/opnsense-without-vlan/interfacewan.png)
 
 **Generic configuration**
 
@@ -102,7 +102,7 @@ Go to
 Interfaces > IPTV_WAN
 ```
 
-![InterfaceWANIPTV](../../../images/KPN/opnsense-without-vlan/interfaceWANIPTV.png)
+![InterfaceWANIPTV](/images/kpn/opnsense-without-vlan/interfacewaniptv.png)
 
 **Basic configuration**
 
@@ -132,7 +132,7 @@ Go to
 System > Firmware > Plugins
 ```
 
-![Plugins](../../../images/KPN/opnsense-without-vlan/plugins.png)
+![Plugins](/images/kpn/opnsense-without-vlan/plugins.png)
 
 Install ```os-igmp-proxy```
 
@@ -146,7 +146,7 @@ Go to
 Services > IGMP Proxy
 ```
 
-![IGMPproxy](../../../images/KPN/opnsense-without-vlan/igmpproxy.png)
+![IGMPproxy](/images/kpn/opnsense-without-vlan/igmpproxy.png)
 
 Here we are going to add 2 streams (Upstream and Downstream)
 
@@ -174,9 +174,9 @@ Go to
 Services > DHCPv4
 ```
 
-![DHCPv4](../../../images/KPN/opnsense-without-vlan/dhcp4.png)
+![DHCPv4](/images/kpn/opnsense-without-vlan/dhcp4.png)
 
-![DHCPv4](../../../images/KPN/opnsense-without-vlan/dhcp4additional.png)
+![DHCPv4](/images/kpn/opnsense-without-vlan/dhcp4additional.png)
 
 Set Additional Options
 ```
@@ -194,11 +194,11 @@ Go to
 Firewall > NAT > Outbound
 ```
 
-![FWNATOutbound](../../../images/KPN/opnsense-without-vlan/fwNAToutbound.png)
+![FWNATOutbound](/images/kpn/opnsense-without-vlan/fwnatoutbound.png)
 
 Set Mode: ```Hybrid outbound NAT rule generation (automatically generated rules are applied after manual rules)```
 
-![FWNATOutboundRule](../../../images/KPN/opnsense-without-vlan/fwNAToutboundRule.png)
+![FWNATOutboundRule](/images/kpn/opnsense-without-vlan/fwnatoutboundRule.png)
 
 Create Rule: ```IPTV_WAN LAN net * * * IPTV_WAN address * NO```
 
@@ -210,7 +210,7 @@ Go to
 Firewall > Rules > IPTV_WAN
 ```
 
-![FWIPTVWAN](../../../images/KPN/opnsense-without-vlan/fwIPTVWAN.png)
+![FWIPTVWAN](/images/kpn/opnsense-without-vlan/fwiptvwan.png)
 
 Create 3 rules
 
@@ -284,7 +284,7 @@ Go to
 Firewall > Rules > LAN
 ```
 
-![FWLAN](../../../images/KPN/opnsense-without-vlan/fwLAN.png)
+![FWLAN](/images/KPN/opnsense-without-vlan/fwlan.png)
 
 Create 2 rules at top of the exisiting ones.
 
