@@ -1,8 +1,8 @@
 ---
-title: Router: pfSense
+title: Router - pfSense
 description: Information about pfSense
 published: true
-date: 2023-04-16T18:48:02.409Z
+date: 2023-04-16T18:48:11.639Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T16:56:15.123Z
