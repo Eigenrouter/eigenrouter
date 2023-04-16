@@ -2,7 +2,7 @@
 title: OPNsense without seperate TV VLAN
 description: How to Setup KPN on OPNsense without a seperate TV VLAN
 published: true
-date: 2023-04-16T18:58:23.023Z
+date: 2023-04-16T19:42:16.560Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T18:13:46.292Z
@@ -12,7 +12,7 @@ dateCreated: 2023-04-16T18:13:46.292Z
 
 In this How-To we are going to setup KPN on OPNsense on with iTV on the LAN interface.
 
-Where we use ```192.168.2.0 /24``` as our network, OPNsense admin can be visited on ```192.168.2.1```.
+Where we use ```192.168.2.0/24``` as our network, OPNsense admin can be visited on ```192.168.2.1```.
 
 ### Step. 1
 
