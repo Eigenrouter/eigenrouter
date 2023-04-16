@@ -2,7 +2,7 @@
 title: EIGENROUTER.NL
 description: 
 published: true
-date: 2023-04-16T19:35:28.673Z
+date: 2023-04-16T19:37:20.784Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T14:52:02.218Z
@@ -77,6 +77,9 @@ Join our Discord server @ [https://discord.gg/jfwsQUgU9e](https://discord.gg/jfw
 
 
 ### Contributing
+
+Check this project @ [GitHub.com](https://github.com/Eigenrouter/eigenrouter) to contribute.
+
 Pull requests, bug fixes, and new features are welcome!
 
 ```
