@@ -1,8 +1,8 @@
 ---
 title: Mikrotik TV configuration
-description: 
+description: How to Setup KPN IPTV on Mikrotik
 published: true
-date: 2023-04-16T17:35:57.520Z
+date: 2023-04-16T18:59:37.691Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T17:30:49.328Z
