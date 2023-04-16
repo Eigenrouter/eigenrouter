@@ -2,13 +2,13 @@
 title: EIGENROUTER.NL
 description: A community driven provider for custom routers guides for ISP's in the Netherlands
 published: true
-date: 2023-04-16T19:30:19.940Z
+date: 2023-04-16T19:32:57.081Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-15T18:58:11.325Z
 ---
 
-# Welcome to EIGENROUTER.NL
+# Welcome @ foo EIGENROUTER<area>.NL
 
 Detailed how-to information about setting up Internet, IPTV & VoIP on your own router from different ISPs.
 
