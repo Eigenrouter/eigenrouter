@@ -2,7 +2,7 @@
 title: OPNsense without seperate TV VLAN
 description: 
 published: true
-date: 2023-04-16T18:20:56.994Z
+date: 2023-04-16T18:21:36.684Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T18:13:46.292Z
@@ -198,7 +198,7 @@ Firewall > NAT > Outbound
 
 Set Mode: ```Hybrid outbound NAT rule generation (automatically generated rules are applied after manual rules)```
 
-![FWNATOutboundRule](/images/kpn/opnsense-without-vlan/fwnatoutboundRule.png)
+![FWNATOutboundRule](/images/kpn/opnsense-without-vlan/fwnatoutboundrule.png)
 
 Create Rule: ```IPTV_WAN LAN net * * * IPTV_WAN address * NO```
 
