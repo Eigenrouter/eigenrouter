@@ -1,8 +1,8 @@
 ---
-title: EIGENROUTER.NL
-description: 
+title: EIGENROUTER.NL - Table of Content
+description: Table of Content for Routers / ISP Guides
 published: true
-date: 2023-04-16T19:38:54.977Z
+date: 2023-04-16T19:40:21.879Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T14:52:02.218Z
