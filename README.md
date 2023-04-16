@@ -2,7 +2,7 @@
 title: EIGENROUTER.NL
 description: 
 published: true
-date: 2023-04-16T15:46:03.205Z
+date: 2023-04-16T15:47:36.764Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T14:52:02.218Z
@@ -40,8 +40,8 @@ Join our Discord server @ [EIGENROUTER.NL](https://discord.gg/jfwsQUgU9e)
 
 ### KPN
 * [pfSense without seperate TV VLAN](/guides/pfsense/kpn/pfSense-without-vlan.md)
-* [pfSense with seperate TV VLAN](guides/pfsense/KPN/pfSense-with-vlan.md)
-* [pfSense KPN IPv6](guides/pfsense/KPN/pfSense-ipv6.md)
+* [pfSense with seperate TV VLAN](/guides/pfsense/kpn/pfSense-with-vlan.md)
+* [pfSense KPN IPv6](/guides/pfsense/kpn/pfSense-ipv6.md)
 
 ### Ziggo
 * Coming soon...
@@ -52,8 +52,8 @@ Join our Discord server @ [EIGENROUTER.NL](https://discord.gg/jfwsQUgU9e)
 ## OPNsense
 
 ### KPN
-* [OPNsense without separate TV VLAN](guides/opnsense/KPN/opnsense-without-vlan.md)
-* [OPNsense with TV VLAN](guides/opnsense/KPN/opnsense-with-vlan.md)
+* [OPNsense without separate TV VLAN](/guides/opnsense/kpn/opnsense-without-vlan.md)
+* [OPNsense with TV VLAN](/guides/opnsense/kpn/opnsense-with-vlan.md)
 
 ### Ziggo
 * Coming soon...
@@ -62,28 +62,28 @@ Join our Discord server @ [EIGENROUTER.NL](https://discord.gg/jfwsQUgU9e)
 * Coming soon...
 
 ### Online
-* [OPNsense internet only configuration](guides/opnsense/Online/opnsense-internet-only.md)
+* [OPNsense internet only configuration](/guides/opnsense/Online/opnsense-internet-only.md)
 
 ## Mikrotik
 
 ### KPN
-* [Mikrotik internet only](guides/mikrotik/KPN/Mikrotik-Internet-only.md)
-* [Mikrotik TV configuration](guides/mikrotik/KPN/Mikrotik-tv-settings.md)
-* [Mikrotik TV configuration With Vlan](guides/mikrotik/KPN/Mikrotik-tv-settings-with-vlan.md)
-* [Mikrotik Add IPv6 To Internet](guides/mikrotik/KPN/Mikrotik-toevoegen-van-ipv6-aan-internet-only.md)
-* [Mikrotik voice / telephony](guides/mikrotik/KPN/Mikrotik-voice-telephony.md)
+* [Mikrotik internet only](/guides/mikrotik/kpn/Mikrotik-Internet-only.md)
+* [Mikrotik TV configuration](/guides/mikrotik/kpn/Mikrotik-tv-settings.md)
+* [Mikrotik TV configuration With Vlan](/guides/mikrotik/kpn/Mikrotik-tv-settings-with-vlan.md)
+* [Mikrotik Add IPv6 To Internet](/guides/mikrotik/kpn/Mikrotik-toevoegen-van-ipv6-aan-internet-only.md)
+* [Mikrotik voice / telephony](/guides/mikrotik/kpn/Mikrotik-voice-telephony.md)
 
 ### Ziggo
-* [Mikrotik internet only](guides/mikrotik/Ziggo/Mikrotik-internet-only.md)
+* [Mikrotik internet only](/guides/mikrotik/ziggo/Mikrotik-internet-only.md)
 
 ### T-Mobile
-* [Mikrotik internet only](guides/mikrotik/T-Mobile/Mikrotik-Internet-only.md)
+* [Mikrotik internet only](/guides/mikrotik/t-mobile/Mikrotik-Internet-only.md)
 
 ### Solcon
-* [Solcon Internet only](guides/mikrotik/Solcon/Internet-only.md)  
+* [Solcon Internet only](/guides/mikrotik/solcon/Internet-only.md)  
 
 ### Online
-* [Online Internet only](guides/mikrotik/Online/Mikrotik-Internet-only.md)
+* [Online Internet only](/guides/mikrotik/Online/Mikrotik-Internet-only.md)
 
 
 ### Contributing
