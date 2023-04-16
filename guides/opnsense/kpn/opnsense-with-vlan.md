@@ -2,7 +2,7 @@
 title: OPNsense with seperate TV VLAN
 description: How to Setup KPN on OPNsense with a seperate TV VLAN
 published: true
-date: 2023-04-16T19:22:00.454Z
+date: 2023-04-16T19:24:04.797Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T19:14:23.766Z
@@ -16,7 +16,7 @@ We are going to use ```VLAN89``` as our seperate TV VLAN, you can choose to use 
 
 ### Step. 1
 
-After install pfSense go to
+After install OPNsense go to
 
 ```
 System > Firmware > Status
