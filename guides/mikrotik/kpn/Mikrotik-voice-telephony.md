@@ -1,8 +1,8 @@
 ---
-title: Mikrotik voice / telephony
-description: 
+title: Mikrotik Voice / Telephony
+description: How to Setup KPN Voice / Telephony in Mikrotik
 published: true
-date: 2023-04-16T17:44:28.220Z
+date: 2023-04-16T19:01:59.096Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T17:44:28.220Z
