@@ -2,7 +2,7 @@
 title: EIGENROUTER.NL
 description: A community driven provider for custom routers guides for ISP's in the Netherlands
 published: true
-date: 2023-04-16T19:33:10.310Z
+date: 2023-04-16T19:33:41.809Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-15T18:58:11.325Z
@@ -16,4 +16,4 @@ We will update this website with more types of routers to become a central place
 
 If you have interest / knowledge in this area and want to help other people, leave a message for us so we can add you as a contributor!
 
-Join our Discord server @ [EIGENROUTER.NL](https://discord.gg/jfwsQUgU9e)
+Join our Discord server @ [EIGENROUTER.NL - Discord Server](https://discord.gg/jfwsQUgU9e)
