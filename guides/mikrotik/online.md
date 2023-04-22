@@ -2,13 +2,13 @@
 title: Provider - Online
 description: 
 published: true
-date: 2023-04-22T14:53:52.821Z
+date: 2023-04-22T14:55:01.550Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-22T14:51:58.461Z
 ---
 
-# Provider: Online
+# Provider: Online - online.nl
 
 It's a nice idea when your provider has the knowledge and experience to let you enjoy everything the internet has to offer without worry. Online.nl is one of the first providers in the Netherlands. We have been around since 1994, back then under the name Euronet. Together with other pioneers, we connected the Netherlands to the web and we were even the very first provider to sell internet access in shops.
 
