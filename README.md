@@ -2,7 +2,7 @@
 title: EIGENROUTER.NL - Table of Content
 description: Table of Content for Routers / ISP Guides
 published: true
-date: 2023-04-16T19:40:21.879Z
+date: 2023-04-22T15:08:02.165Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T14:52:02.218Z
@@ -52,7 +52,7 @@ Join our Discord server @ [https://discord.gg/jfwsQUgU9e](https://discord.gg/jfw
 * [OPNsense with TV VLAN](/guides/opnsense/kpn/opnsense-with-vlan.md)
 
 ### Online
-* [OPNsense internet only configuration](/guides/opnsense/Online/opnsense-internet-only.md)
+* [OPNsense internet only configuration](/guides/opnsense/online/opnsense-internet-only.md)
 
 ## Mikrotik
 
@@ -73,7 +73,7 @@ Join our Discord server @ [https://discord.gg/jfwsQUgU9e](https://discord.gg/jfw
 * [Solcon Internet only](/guides/mikrotik/solcon/Internet-only.md)  
 
 ### Online
-* [Online Internet only](/guides/mikrotik/Online/Mikrotik-Internet-only.md)
+* [Online Internet only](/guides/mikrotik/online/Mikrotik-Internet-only.md)
 
 
 ### Contributing
