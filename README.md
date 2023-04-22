@@ -2,7 +2,7 @@
 title: EIGENROUTER.NL - Table of Content
 description: Table of Content for Routers / ISP Guides
 published: true
-date: 2023-04-22T15:08:46.105Z
+date: 2023-04-22T15:09:35.228Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T14:52:02.218Z
@@ -70,7 +70,7 @@ Join our Discord server @ [https://discord.gg/jfwsQUgU9e](https://discord.gg/jfw
 * [Mikrotik internet only](/guides/mikrotik/t-mobile/Mikrotik-Internet-only.md)
 
 ### Solcon
-* [Solcon Internet only](/guides/mikrotik/solcon/Mikrotik-internet-only.md)  
+* [Solcon Internet only](/guides/mikrotik/solcon/Mikrotik-Internet-only.md)  
 
 ### Online
 * [Online Internet only](/guides/mikrotik/online/Mikrotik-Internet-only.md)
