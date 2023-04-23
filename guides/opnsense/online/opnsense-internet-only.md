@@ -2,13 +2,13 @@
 title: OPNsense internet only
 description: OPNsense internet only with Online
 published: true
-date: 2023-04-22T14:37:56.205Z
+date: 2023-04-23T15:54:56.595Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-22T14:37:56.205Z
 ---
 
-### How to Setup Online.nl on OPNsense [Internet only]
+# How to Setup Online.nl on OPNsense [Internet only]
 
 In this How-To we are going to setup Online.nl on OPNsense
 
