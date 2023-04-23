@@ -2,13 +2,13 @@
 title: Mikrotik internet only Ziggo
 description: How to Setup Ziggo Internet Only on Mikrotik
 published: true
-date: 2023-04-23T15:49:42.118Z
+date: 2023-04-23T15:49:56.452Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-22T14:42:42.798Z
 ---
 
-### Mikrotik-internet-only
+# Mikrotik internet only
 
 This guide is based on a Mikrotik device with at least two Ethernet ports. We start with a completely empty configuration. To wipe your configuration, connect to your Mikrotik device via Winbox or Webfig (HTTP) and navigate to System > Reset Configuration. Tick “No Default Configuration” and reset the device via the “Reset Configuration” button. The device will now restart.
 
