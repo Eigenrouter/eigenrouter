@@ -2,13 +2,13 @@
 title: KPN with seperate TV VLAN
 description: How to Setup KPN on pfSense with seperate TV VLAN
 published: true
-date: 2023-04-16T16:52:05.823Z
+date: 2023-04-23T15:59:18.082Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T16:46:07.042Z
 ---
 
-### How to Setup KPN on pfSense with seperate TV VLAN
+# How to Setup KPN on pfSense with seperate TV VLAN
 
 In this How-To we are going to use ```VLAN89``` as our seperate TV VLAN, you can choose to use your own VLAN number.
 
