@@ -1,8 +1,8 @@
 ---
 title: Mikrotik internet only Ziggo
-description: 
+description: How to Setup Ziggo Internet Only on Mikrotik
 published: true
-date: 2023-04-22T14:42:42.798Z
+date: 2023-04-23T15:49:42.118Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-22T14:42:42.798Z
