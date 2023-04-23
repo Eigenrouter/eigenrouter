@@ -2,13 +2,13 @@
 title: Mikrotik IPv6 with Internet Only
 description: How to Setup KPN IPv6 in Mikrotik
 published: true
-date: 2023-04-16T19:01:13.206Z
+date: 2023-04-23T15:53:20.264Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T17:39:04.633Z
 ---
 
-### Mikrotik - adding ipv6 to internet only
+# Mikrotik - Adding ipv6 to internet only
 
 You can download Winbox here: [ MikroTik Routers and Wireless - Software](https://mikrotik.com/download)
 
