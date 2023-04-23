@@ -2,13 +2,13 @@
 title: Mikrotik Internet Only
 description: How to Setup KPN Internet Only on Mikrotik
 published: true
-date: 2023-04-16T18:59:01.410Z
+date: 2023-04-23T15:54:22.743Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T17:27:19.359Z
 ---
 
-### Mikrotik-internet-only
+# Mikrotik internet only
 
 This guide is based on a Mikrotik device with at least two Ethernet ports. We start with a completely empty configuration. To wipe your configuration, connect to your Mikrotik device via Winbox or Webfig (HTTP) and navigate to System > Reset Configuration. Tick “No Default Configuration” and reset the device via the “Reset Configuration” button. The device will now restart.
 
