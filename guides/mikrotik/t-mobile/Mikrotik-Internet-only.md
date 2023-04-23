@@ -1,14 +1,14 @@
 ---
 title: Mikrotik internet only T-mobile
-description: 
+description: How to Setup T-Mobile Internet Only on Mikrotik
 published: true
-date: 2023-04-22T14:44:00.017Z
+date: 2023-04-23T15:51:04.137Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-22T14:44:00.017Z
 ---
 
-### Mikrotik-internet-only
+# Mikrotik internet only
 
 This guide is based on a Mikrotik device with at least two Ethernet ports. We start with a completely empty configuration. To wipe your configuration, connect to your Mikrotik device via Winbox or Webfig (HTTP) and navigate to System > Reset Configuration. Tick “No Default Configuration” and reset the device via the “Reset Configuration” button. The device will now restart.
 
