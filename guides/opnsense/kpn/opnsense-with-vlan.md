@@ -2,13 +2,13 @@
 title: OPNsense with seperate TV VLAN
 description: How to Setup KPN on OPNsense with a seperate TV VLAN
 published: true
-date: 2023-04-16T19:24:04.797Z
+date: 2023-04-23T15:55:26.353Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T19:14:23.766Z
 ---
 
-### How to Setup KPN on OPNsense with seperate TV VLAN
+# How to Setup KPN on OPNsense with seperate TV VLAN
 
 In this How-To we are going to setup KPN on OPNsense on with iTV.
 
