@@ -2,7 +2,7 @@
 title: KPN IPv6 pfSense
 description: How to Setup KPN IPv6 in pfSense
 published: true
-date: 2023-04-23T15:57:13.354Z
+date: 2023-04-23T15:58:28.501Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T17:17:42.919Z
