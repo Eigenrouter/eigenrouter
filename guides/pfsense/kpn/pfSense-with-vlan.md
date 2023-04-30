@@ -134,7 +134,7 @@ Go to
 Services > IGMP Proxy
 ```
 
-![igmp](/images/kpn/pfsense-with-vlan/igmp.png)
+<img width="1157" alt="Schermafbeelding 2023-04-30 om 07 55 11" src="https://user-images.githubusercontent.com/132186624/235338160-8e713c2e-ceff-4cbc-b1c7-7744efdfb100.png">
 
 Here we are going to add 2 streams (Upstream and Downstream)
 
@@ -146,7 +146,7 @@ Set Interface: ```IPTV_WAN```
 
 Set Type: ```Upstream Interface```
 
-Create 2 networks: ```0.0.0.0 / 1 ``` ```128.0.0.0 / 1```
+Create 1 network: ```0.0.0.0 / 0 ``` 
 
 
 
@@ -158,6 +158,8 @@ Set Interface: ```IPTV_VLAN89```
 Set Type: ```Downstream Interface```
 
 Create 1 networks: ```192.168.89.0 / 24```
+
+pfsense will give an error message, which is a result of a bug. Please ignore the message.
 
 ### Step. 8
 
@@ -173,7 +175,7 @@ Set to Hybrid Outbound NAT
 
 Create a Mapping
 
-![natoutboundmapping](/images/kpn/pfsense-with-vlan/natoutboundmappings.png)
+<img width="961" alt="Schermafbeelding 2023-04-23 om 13 50 41" src="https://user-images.githubusercontent.com/132186624/235338398-578bf3c1-3adf-4688-8b77-2f43cc899ce3.png">
 
 ### Step. 9
 
@@ -185,9 +187,9 @@ Firewall > Rules > IPTV_WAN
 
 Add the following rules
 
-![fwiptvwan](/images/kpn/pfsense-with-vlan/fwiptvwan.png)
+<img width="946" alt="Schermafbeelding 2023-04-23 om 13 52 29" src="https://user-images.githubusercontent.com/132186624/235338423-51e09e00-21c6-46e9-883e-947aa284614b.png">
 
-On the IPv4 IGMP rule enable the following line.
+On the IPv4 IGMP rule enable the following line. 
 
 ![allowipoptions](/images/kpn/pfsense-with-vlan/allowipoptions.png)
 
@@ -201,8 +203,10 @@ Firewall > Rules > IPTV_VLAN89
 
 Add the following rules
 
-![fwiptv89](/images/kpn/pfsense-with-vlan/fwiptvvlan.png)
+<img width="1137" alt="Schermafbeelding 2023-04-30 om 07 58 50" src="https://user-images.githubusercontent.com/132186624/235338349-ff82e880-d367-49dd-86f5-9011e3c354a8.png">
 
 On the IPv4 IGMP rule enable the following line.
 
 ![allowipoptions](/images/kpn/pfsense-with-vlan/allowipoptions.png)
+
+Use the correct order for the firewall rules. Rulesets on the Interface tabs are evaluated on a first match basis. Allow IGMP and UDP first, and then block acces to LAN net or other interfaces. The last rule must be an allow all on ipv4.
