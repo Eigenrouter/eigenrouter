@@ -70,7 +70,7 @@ Configure the IGMP Proxy
 ```
 /routing igmp-proxy interface
 add alternative-subnets=0.0.0.0/0 interface=vlan1.4 upstream=yes
-add interface=vlan3
+add interface=Vlan3
 
 /routing igmp-proxy
 set quick-leave=yes
