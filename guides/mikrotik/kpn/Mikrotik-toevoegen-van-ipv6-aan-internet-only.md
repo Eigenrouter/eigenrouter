@@ -2,7 +2,7 @@
 title: Mikrotik IPv6 with Internet Only
 description: How to Setup KPN IPv6 in Mikrotik
 published: true
-date: 2023-04-23T15:53:20.264Z
+date: 2023-09-09T18:35:09.708Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T17:39:04.633Z
@@ -29,7 +29,7 @@ or on your existing pppoe client change profile to default-ipv6
 
 ```
 /interface pppoe-client
-add add-default-route=yes allow=pap disabled=no interface=vlan1.6 keepalive-timeout=20 max-mru=1500 max-mtu=1500 name="pppoe-client" profile=default-ipv6 user=kpn@kpn
+add add-default-route=yes allow=pap disabled=no interface=vlan1.6 keepalive-timeout=20 max-mru=auto max-mtu=auto name="pppoe-client" profile=default-ipv6 user=kpn@kpn
 ```
 
 Add the DHCPv6 client
