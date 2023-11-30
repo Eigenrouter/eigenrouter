@@ -2,7 +2,7 @@
 title: EIGENROUTER.NL
 description: Detailed how-to information about setting up Internet, IPTV & VoIP on your own router from different ISPs.
 published: true
-date: 2023-04-23T15:29:27.497Z
+date: 2023-11-30T09:42:07.113Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-15T18:58:11.325Z
@@ -23,6 +23,7 @@ Currently, we already have guides ready for the following ISP's and Routers.
 - pfSense
 - OPNsense
 - Mikrotik
+- Draytek
 
 ## ISP's
 - KPN
