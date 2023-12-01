@@ -79,7 +79,7 @@ Join our Discord server @ [https://discord.gg/jfwsQUgU9e](https://discord.gg/jfw
 
 ### KPN
 * [Draytek Internet Only](/guides/draytek/kpn/kpn-internet.md)
-
+* [Draytek Routed IPTV KPN](/guides/draytek/kpn/routed-iptv.md)  
 
 ## Contributing
 
