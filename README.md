@@ -38,6 +38,9 @@ Join our Discord server @ [https://discord.gg/jfwsQUgU9e](https://discord.gg/jfw
     - [Online](#online-1)
   - [Draytek](#Draytek)
     - [KPN](#kpn-3)
+    - [T-Mobile](#t-mobile-3)
+    - [Solcon](#solcon-1)
+    - [Online](#online-2)
 ## pfSense
 
 ### KPN
@@ -80,6 +83,15 @@ Join our Discord server @ [https://discord.gg/jfwsQUgU9e](https://discord.gg/jfw
 ### KPN
 * [Draytek Internet Only](/guides/draytek/kpn/kpn-internet.md)
 * [Draytek Routed IPTV KPN](/guides/draytek/kpn/routed-iptv.md)  
+
+### T-Mobile
+* [T-Mobile Internet Only](/guides/draytek/t-mobile/tmobile-internet-only.md)
+
+### Solcon
+* [Solcon Internet Only](/guides/draytek/solcon/solcon-internet-only.md)
+
+### Online
+* [Online Internet Only](/guides/draytek/online/online-internet-only.md)
 
 ## Contributing
 
