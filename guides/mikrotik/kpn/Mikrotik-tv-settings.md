@@ -64,8 +64,10 @@ add action=masquerade chain=srcnat comment="IPTV" dst-address=10.207.0.0/20 out-
 
 /ip firewall filter
 add action=accept chain=input comment="IPTV IGMP" dst-address=224.0.0.0/4 in-interface=vlan1.4 protocol=igmp
+add action=accept chain=input comment="Optional: Allow UDP input for multicast" dst-address=224.0.0.0/4 in-interface=vlan1.4 protocol=udp
+add action=accept chain=forward comment="Optional: Allow IGMP proxy" dst-address=224.0.0.0/4 in-interface=vlan1.4 protocol=udp
 ```
-
+The last two rules are marked as 'Optional', these are not always needed but depend on the rest of your firewall config (e.g. whether or not you accept or drop input or forward from the vlan1.4).
 The DHCP options for the existing DHCP Server don't "just work", you have to select them in the DHCP Network. See IP > DHCP Server > Networks and double click your existing network. Add the option set to it with the dropdown menu.
 
 Note that IPTV will only work on ports that you add to the bridge interface "local" in Bridge > Ports. Not on switches behind the Mikrotik router. Keep this in mind when budgetting interfaces to client devices or switches or any other device that might need an ethernet connection. 
