@@ -2,7 +2,7 @@
 title: OPNsense with seperate TV VLAN
 description: How to Setup KPN on OPNsense with a seperate TV VLAN
 published: true
-date: 2024-01-04T17:17:15.889Z
+date: 2024-01-04T17:20:11.941Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T19:14:23.766Z
@@ -253,7 +253,8 @@ Go to
 Firewall > Rules > IPTV_WAN
 ```
 
-![FWIPTVWAN](/images/kpn/opnsense-with-vlan/fwiptvwan.png)
+![FWIPTVWAN](/images/kpn/pfsense-with-vlan/fwiptvwan.png)
+
 
 Create 3 rules
 
