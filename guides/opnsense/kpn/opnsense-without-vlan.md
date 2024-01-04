@@ -2,7 +2,7 @@
 title: OPNsense without seperate TV VLAN
 description: How to Setup KPN on OPNsense without a seperate TV VLAN
 published: true
-date: 2023-04-23T15:55:48.145Z
+date: 2024-01-04T17:27:02.080Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T18:13:46.292Z
@@ -209,7 +209,6 @@ Go to
 ```
 Firewall > Rules > IPTV_WAN
 ```
-
 ![FWIPTVWAN](/images/kpn/opnsense-without-vlan/fwiptvwan.png)
 
 Create 3 rules
@@ -266,7 +265,7 @@ Set Quick: ```True```
 
 Set Interface: ```IPTV_WAN```
 
-Set Direction: ```out```
+Set Direction: ```in```
 
 Set TCP/IP Version: ```IPv4```
 
