@@ -2,7 +2,7 @@
 title: OPNsense with seperate TV VLAN
 description: How to Setup KPN on OPNsense with a seperate TV VLAN
 published: true
-date: 2023-05-01T18:37:13.564Z
+date: 2024-01-04T17:14:52.569Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-16T19:14:23.766Z
@@ -309,11 +309,11 @@ Set Quick: ```True```
 
 Set Interface: ```IPTV_WAN```
 
-Set Direction: ```out```
+Set Direction: ```in```
 
 Set TCP/IP Version: ```IPv4```
 
-Set Protocol: ```UDP```
+Set Protocol: ```*```
 
 Set Source: ```any```
 
