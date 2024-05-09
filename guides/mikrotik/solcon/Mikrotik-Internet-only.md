@@ -22,7 +22,7 @@ The default login credentials are “admin” with no password. If you are runni
 
 This guide will give you commands to enter in the Mikrotik Terminal. You can do this either via SSH or in the Terminal that is included in the Winbox application.
 
-Note: make sure your Ziggo modem is set to Bridge mode. You may need to call Ziggo to make this change. 
+
 
 We will build the WAN connection on ether1, and the LAN connection on ether2. Ether2 will be configured as slave interface of a bridge interface. Add the following:
 
