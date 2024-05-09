@@ -36,6 +36,7 @@ Join our Discord server @ [https://discord.gg/jfwsQUgU9e](https://discord.gg/jfw
     - [T-Mobile](#t-mobile-2)
     - [Solcon](#solcon)
     - [Online](#online-1)
+    - [Delta](#delta)
   - [Draytek](#Draytek)
     - [KPN](#kpn-3)
     - [T-Mobile](#t-mobile-3)
@@ -77,6 +78,10 @@ Join our Discord server @ [https://discord.gg/jfwsQUgU9e](https://discord.gg/jfw
 
 ### Online
 * [Online Internet only](/guides/mikrotik/online/Mikrotik-Internet-only.md)
+
+### Delta
+
+* [Delta](/guides/mikrotik/delta/Mikrotik-Internet-Only.md)
 
 ## Draytek  
 
