@@ -2,7 +2,7 @@
 title: EIGENROUTER.NL
 description: Detailed how-to information about setting up Internet, IPTV & VoIP on your own router from different ISPs.
 published: true
-date: 2023-11-30T09:42:07.113Z
+date: 2024-05-09T17:30:50.192Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-15T18:58:11.325Z
@@ -31,6 +31,7 @@ Currently, we already have guides ready for the following ISP's and Routers.
 - Solcon
 - Ziggo
 - Online
+- Delta
 
 ## Work in progress
 - Ziggo (pfSense & OPNsense)
