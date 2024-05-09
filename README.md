@@ -81,7 +81,7 @@ Join our Discord server @ [https://discord.gg/jfwsQUgU9e](https://discord.gg/jfw
 
 ### Delta
 
-* [Delta](/guides/mikrotik/delta/Mikrotik-Internet-Only.md)
+* [Delta Internet only](/guides/mikrotik/delta/Mikrotik-Internet-Only.md)
 
 ## Draytek  
 
