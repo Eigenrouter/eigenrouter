@@ -31,6 +31,7 @@ Join our Discord server @ [https://discord.gg/jfwsQUgU9e](https://discord.gg/jfw
     - [T-Mobile](#t-mobile-1)
     - [Online](#online)
   - [Mikrotik](#mikrotik)
+    - [code-snippets](#code-snippets)
     - [KPN](#kpn-2)
     - [Ziggo](#ziggo-2)
     - [T-Mobile](#t-mobile-2)
@@ -59,6 +60,12 @@ Join our Discord server @ [https://discord.gg/jfwsQUgU9e](https://discord.gg/jfw
 * [OPNsense internet only configuration](/guides/opnsense/online/opnsense-internet-only.md)
 
 ## Mikrotik
+
+### code-snippets
+* [block-port-scanners](/guides/mikrotik/code-snippets/block-port-scanners.md)
+* [fasttrack](/guides/mikrotik/code-snippets/fasttrack.md)
+* [set-ntp](/guides/mikrotik/code-snippets/set-ntp.md)
+* [v7-multi-wan](/guides/mikrotik/code-snippets/v7-multi-wan.md)
 
 ### KPN
 * [Mikrotik internet only](/guides/mikrotik/kpn/Mikrotik-Internet-only.md)
