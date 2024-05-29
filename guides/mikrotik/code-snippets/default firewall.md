@@ -1,4 +1,4 @@
-Code snippet default firewall
+Code snippet default  firewall  
 
 /ip firewall filter
 add action=accept chain=input comment="defconf: accept ICMP" protocol=icmp
