@@ -1,5 +1,5 @@
 Code snippet default firewall ipv6  
-
+```
 /ipv6 firewall {
   address-list add list=bad_ipv6 address=::/128 comment="defconf: unspecified address"
   address-list add list=bad_ipv6 address=::1 comment="defconf: lo"
@@ -36,4 +36,4 @@ Code snippet default firewall ipv6
   filter add chain=forward action=accept protocol=ipsec-esp comment="defconf: accept ipsec ESP"
   filter add chain=forward action=accept ipsec-policy=in,ipsec comment="defconf: accept all that matches ipsec policy"
   filter add chain=forward action=drop in-interface-list=!LAN comment="defconf: drop everything else not coming from LAN"
-}
+}```
