@@ -10,4 +10,5 @@ add chain=input protocol=tcp tcp-flags=fin,psh,urg,!syn,!rst,!ack action=add-src
 add chain=input protocol=tcp tcp-flags=fin,syn,rst,psh,ack,urg action=add-src-to-address-list address-list="port scanners" address-list-timeout=2w comment="ALL/ALL scan"
 add chain=input protocol=tcp tcp-flags=!fin,!syn,!rst,!psh,!ack,!urg action=add-src-to-address-list address-list="port scanners" address-list-timeout=2w comment="NMAP NULL scan"
 /ip firewall raw
-add chain=prerouting src-address-list="port scanners" action=drop comment="dropping port scanners" disabled=no```
+add chain=prerouting src-address-list="port scanners" action=drop comment="dropping port scanners" disabled=no
+```
