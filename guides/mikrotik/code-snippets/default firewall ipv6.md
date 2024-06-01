@@ -36,4 +36,5 @@ Code snippet default firewall ipv6
   filter add chain=forward action=accept protocol=ipsec-esp comment="defconf: accept ipsec ESP"
   filter add chain=forward action=accept ipsec-policy=in,ipsec comment="defconf: accept all that matches ipsec policy"
   filter add chain=forward action=drop in-interface-list=!LAN comment="defconf: drop everything else not coming from LAN"
-}```
+}
+```
