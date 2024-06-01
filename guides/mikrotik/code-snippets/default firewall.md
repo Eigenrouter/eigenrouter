@@ -1,5 +1,5 @@
 Code snippet default  firewall  
-
+```
 /ip firewall filter
 add action=accept chain=input comment="defconf: accept ICMP" protocol=icmp
 add action=accept chain=input comment="defconf: accept established,related" \
@@ -18,3 +18,4 @@ add action=drop chain=forward comment=\
 /ip firewall nat
 add action=masquerade chain=srcnat comment="defconf: masquerade" \
     out-interface=ether1
+```
