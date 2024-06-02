@@ -1,8 +1,8 @@
 ---
-title: Router - Draytek
+title: Router - DrayTek
 description: Information about Draytek
 published: true
-date: 2024-06-02T13:02:31.030Z
+date: 2024-06-02T13:03:02.518Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-02T13:02:31.030Z
