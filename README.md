@@ -66,8 +66,8 @@ Join our Discord server @ [https://discord.gg/jfwsQUgU9e](https://discord.gg/jfw
 * [fasttrack](/guides/mikrotik/code-snippets/fasttrack.md)
 * [set-ntp](/guides/mikrotik/code-snippets/set-ntp.md)
 * [v7-multi-wan](/guides/mikrotik/code-snippets/v7-multi-wan.md)
-* [default firewall](/guides/mikrotik/code-snippets/default%20firewall.md)
-* [default ipv6 firewall](/guides/mikrotik/code-snippets/default%20firewall%20ipv6.md)
+* [default firewall](/guides/mikrotik/code-snippets/default-firewall.md)
+* [default ipv6 firewall](/guides/mikrotik/code-snippets/default-firewall-ipv6.md)
 ### KPN
 * [Mikrotik internet only](/guides/mikrotik/kpn/Mikrotik-Internet-only.md)
 * [Mikrotik TV configuration](/guides/mikrotik/kpn/Mikrotik-tv-settings.md)
