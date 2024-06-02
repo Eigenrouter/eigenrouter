@@ -1,3 +1,13 @@
+---
+title: Mikrotik-Internet-Only
+description: How to Setup Delta Internet Only on Mikrotik
+published: true
+date: 2024-06-02T12:55:10.140Z
+tags: 
+editor: markdown
+dateCreated: 2024-05-06T07:51:35.881Z
+---
+
 # Mikrotik internet only
 
 This guide is based on a Mikrotik device with at least two Ethernet ports. We start with a completely empty configuration. To wipe your configuration, connect to your Mikrotik device via Winbox or Webfig (HTTP) and navigate to System > Reset Configuration. Tick “No Default Configuration” and reset the device via the “Reset Configuration” button. The device will now restart.
