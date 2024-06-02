@@ -1,8 +1,8 @@
 ---
-title: Provider - Delta
+title: Provider - DELTA
 description: 
 published: true
-date: 2024-06-02T12:52:52.522Z
+date: 2024-06-02T12:54:29.829Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-02T12:52:52.522Z
