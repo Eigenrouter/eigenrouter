@@ -54,7 +54,7 @@ Set DNS forwarders. In this example we will be using Google DNS. We will also us
 /ip dns
 set allow-remote-requests=yes servers=8.8.8.8,8.8.4.4
 ```
-Configure a basic firewall. For proper hardening, refer to this Mikrotik article: [Mikrotik Router Hardening](https://help.mikrotik.com/docs/display/ROS/Building+Your+First+Firewall#BuildingYourFirstFirewall-Ipv4firewall). The following filter rules only cover the input chain on the WAN-VLAN interface. This means the LAN side is not hardened. 
+Configure a basic firewall. For proper hardening, refer to this Mikrotik article: [Building Advanced Firewall](https://help.mikrotik.com/docs/display/ROS/Building+Advanced+Firewall). The following filter rules only cover the input chain on the WAN-VLAN interface. This means the LAN side is not hardened. 
 ```
 /ip firewall filter
 add action=accept chain=input in-interface=vlan1.100 protocol=icmp
